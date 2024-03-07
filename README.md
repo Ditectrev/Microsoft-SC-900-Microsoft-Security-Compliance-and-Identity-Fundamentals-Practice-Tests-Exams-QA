@@ -828,6 +828,9 @@
 
 - [x] Yes.
 - [ ] No.
+=======
+- [ ] Yes.
+- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -954,6 +957,48 @@
 - [ ] a virtual network.
 - [x] a virtual network subnet.
 - [ ] a resource group.
+=======
+### Enabling multi-factor authentication (MFA) increases an organization's secure score in Azure Security Center.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Which feature provides the extended detection and response (XDR) capability of Azure Sentinel?
+
+- [ ] integration with the Microsoft 365 compliance center.
+- [ ] support for threat hunting.
+- [x] integration with Microsoft 365 Defender.
+- [ ] support for Azure Monitor Workbooks.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Which two Azure resources can a network security group (NSG) be associated with? Each correct answer presents a complete solution.
+
+- [ ] a network interface.
+- [ ] an Azure App Service web app.
+- [x] a virtual network.
+- [ ] a virtual network subnet.
+- [x] a resource group.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### What can you use to provide a user with a two-hour window to complete an administrative task in Azure?
+
+- [x] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
+- [ ] Azure Multi-Factor Authentication (MFA).
+- [ ] Azure Active Directory (Azure AD) Identity Protection.
+- [ ] conditional access policies.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### [...] provides a central location for managing information protection, information governance, and data loss prevention (DLP) policies.
+
+- [ ] Azure Defender.
+- [x] The Microsoft 365 compliance center.
+- [ ] The Microsoft 365 security center.
+- [ ] Microsoft Endpoint Manager.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -975,6 +1020,36 @@
 
 - [ ] Yes.
 - [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Which Microsoft portal provides information about how Microsoft manages privacy, compliance, and security?
+
+- [x] Microsoft Service Trust Portal.
+- [ ] Compliance Manager.
+- [ ] Microsoft 365 compliance center.
+- [ ] Microsoft Support.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Azure Defender can detect vulnerabilities and threats for Azure Storage.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Cloud Security Posture Management (CSPM) is available for all Azure subscriptions.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Azure Security Center can evaluate the security of workloads deployed to Azure or on- O premises.
+
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1036,11 +1111,50 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### [...] is used to identify, hold, and export electronic information that might be used in an investigation. 
+
+- [ ] Customer Lockbox.
+- [ ] Data loss prevention (DLP).
+- [x] eDiscovery.
+- [ ] A resource lock.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase?
+
+- [x] Plan.
+- [ ] Manage.
+- [ ] Adopt.
+- [ ] Govern.
+- [x] Define Strategy.
+
+**[⬆ Back to Top](#table-of-contents)**
+
 ### To which type of resource can Azure Bastion provide secure access?
 - [ ] Azure Files.
 - [ ] Azure SQL Managed Instances.
 - [x] Azure virtual machines.
 - [ ] Azure App Service.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Conditional access policies always enforce the use of multi-factor authentication (MFA).
+- [ ] Yes.
+- [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Conditional access policies can be used to block access to an application based on the location of the user.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Conditional access policies only affect users who have Azure Active Directory (Azure AD)- joined devices.
+
+- [ ] Yes.
+- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1050,6 +1164,15 @@
 - [x] Azure Blueprints.
 - [ ] Azure Sentinel.
 - [ ] Azure Policy.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Which Azure Active Directory (Azure AD) feature can you use to provide just-in-time (JIT) access to manage Azure resources?
+
+- [ ] conditional access policies.
+- [ ] Azure AD Identity Protection.
+- [x] Azure AD Privileged Identity Management (PIM).
+- [ ] authentication method policies.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1100,8 +1223,18 @@
 - [ ] Policy.
 - [ ] Azure AD Connect Health.
 - [x] Security Center (Microsoft Defender for Cloud).
+- [x] Security Center.
 - [ ] Advisor.
 - [ ] Monitor.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### In the shared responsibility model for an Azure deployment, what is Microsoft solely responsible for managing?
+
+- [ ] the management of mobile devices.
+- [ ] the permissions for the user data stored in Azure.
+- [ ] the creation and management of user accounts.
+- [x] the management of the physical hardware.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1129,7 +1262,17 @@
 - [ ] Microsoft Secure Score.
 - [ ] application security groups.
 - [x] Microsoft Defender for Cloud.
+- [x] Azure Defender.
 - [ ] Azure Bastion.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Which score measures an organization’s progress in completing actions that help reduce risks associated to data protection and regulatory standards?
+
+- [ ] Microsoft Secure Score.
+- [ ] Productivity Score.
+- [ ] Secure score in Azure Security Center.
+- [x] Compliance score.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1147,6 +1290,22 @@
 - [ ] Microsoft 365 admin center.
 - [ ] Microsoft 365 Defender portal.
 - [x] Microsoft 365 Purview
+=======
+### What feature in Microsoft Defender for Endpoint provides the first line of defense against cyberthreats by reducing the attack surface?
+
+- [ ] automated remediation.
+- [ ] automated investigation.
+- [ ] advanced hunting.
+- [x] network protection.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Compliance Manager can be directly accessed from the [...].
+
+- [x] Microsoft 365 admin center.
+- [ ] Microsoft 365 Defender portal.
+- [ ] Microsoft 365 Compliance Center
+
 - [ ]Microsoft Support portal.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1172,6 +1331,27 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
+### You can create custom roles in Azure Active Directory (Azure AD).
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Global administrator is a role in Azure Active Directory (Azure AD).
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### An Azure Active Directory (Azure AD) user can be assigned only one role.
+
+- [ ] Yes.
+- [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
 ### What should you use in the Microsoft 365 security center to view security trends and track the protection status of identities?
 - [ ] Attack simulator.
 - [x] Reports.
@@ -1188,6 +1368,32 @@
 - [ ] Export and download results.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+
+### What is the purpose of Azure Active Directory (Azure AD) Password Protection?
+
+- [ ] to control how often users must change their passwords.
+- [ ] to identify devices to which users can sign in without using multi-factor authentication (MFA).
+- [ ] to encrypt a password by using globally recognized encryption standards.
+- [x] to prevent users from using specific words in their passwords.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### [...] enables collaboration with business partners from external organizations such as suppliers, partners, and vendors. External users appear as guest users in the directory.
+
+- [ ] Active Directory Domain Services (AD DS).
+- [ ] Active Directory forest trusts.
+- [x] Azure Active Directory (Azure AD) business-to-business (B2B).
+- [ ] Azure Active Directory business-to-consumer B2C (Azure AD B2C).
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### can be used to provide Microsoft Support Engineers with access to an organization's data stored in Microsoft Exchange Online, SharePoint Online, and OneDrive for
+
+- [x] Customer Lockbox.
+- [ ] Information barriers.
+- [ ] Privileged Access Management (PAM) Business. 
+- [ ] Sensitivity labels.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1229,6 +1435,16 @@
 - [ ] Azure AD Identity Protection.
 
 **[⬆ Back to Top](#table-of-contents)**
+
+### Azure DDOS Protection Standard can be used to protect [...]
+
+- [ ] Azure Active Directory (Azure AD) applications.
+- [ ] Azure Active Directory (Azure AD) users.
+- [ ] resource groups.
+- [x] virtual networks.
+
+**[⬆ Back to Top](#table-of-contents)**
+
 
 ### Which Microsoft portal provides information about how Microsoft cloud services comply with regulatory standard, such as International Organization for Standardization (ISO)?
 
