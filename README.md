@@ -21,7 +21,7 @@
 | 15  | [Azure Security Center can evaluate the security of workloads deployed to Azure or on-premises.](#azure-security-center-can-evaluate-the-security-of-workloads-deployed-to-azure-or-on-premises)
 | 16  | [In the shared responsibility model for an Azure deployment, what is Microsoft solely responsible for managing?](#in-the-shared-responsibility-model-for-an-azure-deployment-what-is-microsoft-solely-responsible-for-managing)
 | 17  | [Which Microsoft 365 feature can you use to restrict communication and the sharing of information between members of two departments at your organization?](#which-microsoft-365-feature-can-you-use-to-restrict-communication-and-the-sharing-of-information-between-members-of-two-departments-at-your-organization)
-| 18  | [[...] in the Microsoft 365 security center to identify devices that are affected by an alert.](#-in-the-microsoft-365-security-center-to-identify-devices-that-are-affected-by-an-alert)
+| 18  | [You can use [...] in the Microsoft 365 security center to identify devices that are affected by an alert.](#-in-the-microsoft-365-security-center-to-identify-devices-that-are-affected-by-an-alert)
 | 19  | [When users sign in to the Azure portal, they are first [...].](#when-users-sign-in-to-the-azure-portal-they-are-first-)
 | 20  | [You plan to implement a security strategy and place multiple layers of defense throughout a network infrastructure. Which security methodology does this represent?](#you-plan-to-implement-a-security-strategy-and-place-multiple-layers-of-defense-throughout-a-network-infrastructure-which-security-methodology-does-this-represent)
 | 21  | [Compliance Manager assesses compliance data [...] for an organization.](#compliance-manager-assesses-compliance-data--for-an-organization)
@@ -91,10 +91,9 @@
 | 85  | [Azure Policy can be used to ensure that new resources adhere to corporate standards.](#azure-policy-can-be-used-to-ensure-that-new-resources-adhere-to-corporate-standards)
 | 86  | [Compliance evaluation in Azure Policy occurs only when a target resource is created or modified.](#compliance-evaluation-in-azure-policy-occurs-only-when-a-target-resource-is-created-or-modified)
 | 87  | [Federation is used to establish [...] between organizations.](#federation-is-used-to-establish--between-organizations)
-| 88  | [You can use [...] in the Microsoft 365 security center to identify devices that are affected by an alert.](#you-can-use--in-the-microsoft-365-security-center-to-identify-devices-that-are-affected-by-an-alert)
-| 89  | [[...] provides Network Address Translation (NAT) services.](#-provides-network-address-translation-nat-services)
-| 90  | [[...] provides secure and seamless Remote Desktop connectivity to Azure virtual machines.](#-provides-secure-and-seamless-remote-desktop-connectivity-to-azure-virtual-machines)
-| 91  | [[...] provides provides traffic filtering that can be applied to specific network interfaces on a virtual network.](#-provides-provides-traffic-filtering-that-can-be-applied-to-specific-network-interfaces-on-a-virtual-network)
+| 88  | [[...] provides Network Address Translation (NAT) services.](#-provides-network-address-translation-nat-services)
+| 89  | [[...] provides secure and seamless Remote Desktop connectivity to Azure virtual machines.](#-provides-secure-and-seamless-remote-desktop-connectivity-to-azure-virtual-machines)
+| 90  | [[...] provides provides traffic filtering that can be applied to specific network interfaces on a virtual network.](#-provides-provides-traffic-filtering-that-can-be-applied-to-specific-network-interfaces-on-a-virtual-network)
 
 ### Conditional access policies always enforce the user of multi-factor authentication (MFA).
 
@@ -777,15 +776,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You can use [...] in the Microsoft 365 security center to identify devices that are affected by an alert.
-
-- [ ] classifications.
-- [x] incidents.
-- [ ] policies.
-- [ ] Secure score.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### [...] provides Network Address Translation (NAT) services.
 
 - [ ] Azure Bastion.
@@ -936,32 +926,13 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Applying system updates increases an organization's secure score in Azure Security Center.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### The secure score in Azure Security Center can evaluate resources across multiple Azure subscriptions.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Which two Azure resources can a network security group (NSG) be associated with? 
+### Which two Azure resources can a network security group (NSG) be associated with?
 
 - [x] a network interface.
 - [ ] an Azure App Service web app.
 - [ ] a virtual network.
 - [x] a virtual network subnet.
 - [ ] a resource group.
-=======
-### Enabling multi-factor authentication (MFA) increases an organization's secure score in Azure Security Center.
-
-- [x] Yes.
-- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -981,15 +952,6 @@
 - [x] a virtual network.
 - [ ] a virtual network subnet.
 - [x] a resource group.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### What can you use to provide a user with a two-hour window to complete an administrative task in Azure?
-
-- [x] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
-- [ ] Azure Multi-Factor Authentication (MFA).
-- [ ] Azure Active Directory (Azure AD) Identity Protection.
-- [ ] conditional access policies.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1111,15 +1073,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### [...] is used to identify, hold, and export electronic information that might be used in an investigation. 
-
-- [ ] Customer Lockbox.
-- [ ] Data loss prevention (DLP).
-- [x] eDiscovery.
-- [ ] A resource lock.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase?
 
 - [x] Plan.
@@ -1155,24 +1108,6 @@
 
 - [ ] Yes.
 - [x] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### What can you use to provision Azure resources across multiple subscriptions in a consistent manner?
-
-- [ ] Azure Defender.
-- [x] Azure Blueprints.
-- [ ] Azure Sentinel.
-- [ ] Azure Policy.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Which Azure Active Directory (Azure AD) feature can you use to provide just-in-time (JIT) access to manage Azure resources?
-
-- [ ] conditional access policies.
-- [ ] Azure AD Identity Protection.
-- [x] Azure AD Privileged Identity Management (PIM).
-- [ ] authentication method policies.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1229,15 +1164,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### In the shared responsibility model for an Azure deployment, what is Microsoft solely responsible for managing?
-
-- [ ] the management of mobile devices.
-- [ ] the permissions for the user data stored in Azure.
-- [ ] the creation and management of user accounts.
-- [x] the management of the physical hardware.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### Which two types of resources can be protected by using Azure Firewall? Each correct answer presents a complete solution.
 
 - [x] Azure virtual machines.
@@ -1248,15 +1174,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which Microsoft 365 compliance feature can you use to encrypt content automatically based on specific conditions?
-
-- [ ] Content Search.
-- [x] sensitivity labels.
-- [ ] retention policies.
-- [ ] eDiscovery.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### What can you use to provide threat detection for Azure SQL Managed Instance?
 
 - [ ] Microsoft Secure Score.
@@ -1264,15 +1181,6 @@
 - [x] Microsoft Defender for Cloud.
 - [x] Azure Defender.
 - [ ] Azure Bastion.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Which score measures an organization’s progress in completing actions that help reduce risks associated to data protection and regulatory standards?
-
-- [ ] Microsoft Secure Score.
-- [ ] Productivity Score.
-- [ ] Secure score in Azure Security Center.
-- [x] Compliance score.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1310,72 +1218,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### All Azure Active Directory (Azure AD) license editions include the same features.
-
-- [ ] Yes.
-- [x] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### You can manage an Azure Active Directory (Azure AD) tenant by using the Azure portal.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### You must deploy Azure virtual machines to host an Azure Active Directory (Azure AD) tenant.
-
-- [ ] Yes.
-- [x] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### You can create custom roles in Azure Active Directory (Azure AD).
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Global administrator is a role in Azure Active Directory (Azure AD).
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### An Azure Active Directory (Azure AD) user can be assigned only one role.
-
-- [ ] Yes.
-- [x] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### What should you use in the Microsoft 365 security center to view security trends and track the protection status of identities?
-- [ ] Attack simulator.
-- [x] Reports.
-- [ ] Hunting.
-- [ ] Incidents.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### In a Core eDiscovery workflow, what should you do before you can search for content?
 
 - [x] Create an eDiscovery hold.
 - [ ] Run Express Analysis.
 - [ ] Configure attorney-client privilege detection.
 - [ ] Export and download results.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-
-### What is the purpose of Azure Active Directory (Azure AD) Password Protection?
-
-- [ ] to control how often users must change their passwords.
-- [ ] to identify devices to which users can sign in without using multi-factor authentication (MFA).
-- [ ] to encrypt a password by using globally recognized encryption standards.
-- [x] to prevent users from using specific words in their passwords.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1392,7 +1240,7 @@
 
 - [x] Customer Lockbox.
 - [ ] Information barriers.
-- [ ] Privileged Access Management (PAM) Business. 
+- [ ] Privileged Access Management (PAM) Business.
 - [ ] Sensitivity labels.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1436,16 +1284,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure DDOS Protection Standard can be used to protect [...]
-
-- [ ] Azure Active Directory (Azure AD) applications.
-- [ ] Azure Active Directory (Azure AD) users.
-- [ ] resource groups.
-- [x] virtual networks.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-
 ### Which Microsoft portal provides information about how Microsoft cloud services comply with regulatory standard, such as International Organization for Standardization (ISO)?
 
 - [ ] the Microsoft Endpoint Manager admin center.
@@ -1483,8 +1321,8 @@
 
 ### You can manage Microsoft Intune by using the
 
-- [ ] Azure Active Directory admin center. 
-- [ ] Microsoft 365 compliance center. 
+- [ ] Azure Active Directory admin center.
+- [ ] Microsoft 365 compliance center.
 - [ ] Microsoft 365 Defender portal.
 - [x] Microsoft Endpoint Manager admin center.
 
@@ -1520,12 +1358,12 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which three statements accurately describe the guiding principles of Zero Trust? 
+### Which three statements accurately describe the guiding principles of Zero Trust?
 
 - [ ] Define the perimeter by physical locations.
-- [x] Use identity as the primary security boundary. 
-- [x] Always verify the permissions of a user explicitly. 
-- [x] Always assume that the user system can be breached. 
+- [x] Use identity as the primary security boundary.
+- [x] Always verify the permissions of a user explicitly.
+- [x] Always assume that the user system can be breached.
 - [ ] Use the network as the primary security boundary.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1610,7 +1448,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### When security defaults are enabled for an Azure Active Directory (Azure AD) tenant, which two requirements are enforced? 
+### When security defaults are enabled for an Azure Active Directory (Azure AD) tenant, which two requirements are enforced?
 
 - [ ] All users must authenticate from a registered device.
 - [x] Administrators must always use Azure Multi-Factor Authentication (MFA).
@@ -1639,7 +1477,8 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### When using multi-factor authentication (MFA), a password is considered something you
+### When using multi-factor authentication (MFA), a password is considered something you [...].
+
 - [ ] are.
 - [ ] have.
 - [x] know.
@@ -1677,7 +1516,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-###  You can use [...] in the Microsoft 365 security center to view an aggregation of alerts that relate to the same attack.
+### You can use [...] in the Microsoft 365 security center to view an aggregation of alerts that relate to the same attack.
 
 - [ ] Reports.
 - [ ] Hunting.
@@ -1700,17 +1539,10 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Bastion provides a secure connection to an Azure virtual machine by using the Azure portal.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### In Microsoft Sentinel, you can automate common tasks by using [...]
 - [ ] deep investigation tools.
-- [ ] hunting search-and-query tools. 
-- [x] playbooks. 
+- [ ] hunting search-and-query tools.
+- [x] playbooks.
 - [ ] workbooks.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1742,7 +1574,8 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### In the Microsoft 365 Defender portal, an incident is a collection of correlated [...]
+### In the Microsoft 365 Defender portal, an incident is a collection of correlated [...].
+
 - [ ] alerts.
 - [ ] events.
 - [x] vulnerabilities.
@@ -1813,5 +1646,89 @@
 - [x] Azure Blueprints.
 - [ ] Microsoft Sentinel.
 - [ ] Azure Policy.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Azure Defender provides security alerts and advanced threat protection for virtual machines, SQL databases, containers, web applications, your network, your storage, and more
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Cloud security posture management (CSPM) is available for free to all Azure users.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Azure Security Center is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud – whether they’re in Azure or not – as well as on premises.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Azure Active Directory (Azure AD) is a cloud-based user identity and authentication service.
+
+- [ ] Yes.
+- [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Microsoft 365 uses Azure Active Directory (Azure AD). Azure Active Directory (Azure AD) is included with your Microsoft 365 subscription.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Azure Bastion provides a secure connection to an Azure virtual machine by using the Azure portal.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Azure Active Directory (Azure AD)is used for authentication and authorization.
+
+- [ ] an extended detection and response (XDR) system.
+- [x] an identity provider.
+- [ ] a management group.
+- [ ] a security information and event management (SIEM) system.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Provides Network Address Translation (NAT) services.
+
+- [ ] Azure Bastion.
+- [x] Azure Firewall.
+- [ ] Network security group (NSG).
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Provides secure and seamless Remote Desktop connectivity to Azure virtual machines.
+
+- [x] Azure Bastion.
+- [ ] Azure Firewall.
+- [ ] Network security group (NSG).
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Provides traffic filtering that can be applied to specific network interfaces on avirtual network.
+
+- [ ] Azure Bastion.
+- [ ] Azure Firewall.
+- [x] Network security group (NSG).
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A file makes the data in the file readable and usable to viewers that have the appropriate key.
+
+- [ ] Archiving.
+- [ ] Compressing.
+- [ ] Deduplicating.
+- [x] Encrypting.
 
 **[⬆ Back to Top](#table-of-contents)**
