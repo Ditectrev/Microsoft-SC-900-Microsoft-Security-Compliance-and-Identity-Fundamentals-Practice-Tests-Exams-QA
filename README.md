@@ -29,7 +29,7 @@
 | 23  | [Digitally signing a document requires a private key.](#digitally-signing-a-document-requires-a-private-key)
 | 24  | [Verifying the authenticity of a digitally signed document requires the public key of the signer.](#verifying-the-authenticity-of-a-digitally-signed-document-requires-the-public-key-of-the-signer)
 | 25  | [Verifying the authenticity of a digitally signed document requires the private key of the signer.](#verifying-the-authenticity-of-a-digitally-signed-document-requires-the-private-key-of-the-signer)
-| 26  | [In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase? Each correct answer presents a complete solution.](#in-the-microsoft-cloud-adoption-framework-for-azure-which-two-phases-are-addressed-before-the-ready-phase-each-correct-answer-presents-a-complete-solution)
+| 26  | [In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase?](#in-the-microsoft-cloud-adoption-framework-for-azure-which-two-phases-are-addressed-before-the-ready-phase)
 | 27  | [What can you use to provide a user with a two-hour window to complete an administrative task in Azure?](#what-can-you-use-to-provide-a-user-with-a-two-hour-window-to-complete-an-administrative-task-in-azure)
 | 28  | [Applying system updates increases an organization's secure score in Azure Security Center.](#applying-system-updates-increases-an-organizations-secure-score-in-azure-security-center)
 | 29  | [The secure score in Azure Security Center can evaluate resources across multiple Azure subscriptions.](#the-secure-score-in-azure-security-center-can-evaluate-resources-across-multiple-azure-subscriptions)
@@ -290,7 +290,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase? Each correct answer presents a complete solution.
+### In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase?
 
 - [x] Plan.
 - [ ] Manage.
@@ -604,7 +604,7 @@
 - [ ] Azure AD Connect.
 - [ ] Log Analytics workspace.
 - [ ] Azure Information Protection.
-- [x] Connector.
+- [x] A data connector.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -994,27 +994,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Defender can detect vulnerabilities and threats for Azure Storage.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Cloud Security Posture Management (CSPM) is available for all Azure subscriptions.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Azure Security Center can evaluate the security of workloads deployed to Azure or on- O premises.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### Azure AD Connect can be used to implement hybrid identity.
 
 - [x] Yes.
@@ -1070,16 +1049,6 @@
 
 - [x] Yes.
 - [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase?
-
-- [x] Plan.
-- [ ] Manage.
-- [ ] Adopt.
-- [ ] Govern.
-- [x] Define Strategy.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1688,47 +1657,5 @@
 
 - [x] Yes.
 - [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Azure Active Directory (Azure AD)is used for authentication and authorization.
-
-- [ ] an extended detection and response (XDR) system.
-- [x] an identity provider.
-- [ ] a management group.
-- [ ] a security information and event management (SIEM) system.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Provides Network Address Translation (NAT) services.
-
-- [ ] Azure Bastion.
-- [x] Azure Firewall.
-- [ ] Network security group (NSG).
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Provides secure and seamless Remote Desktop connectivity to Azure virtual machines.
-
-- [x] Azure Bastion.
-- [ ] Azure Firewall.
-- [ ] Network security group (NSG).
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Provides traffic filtering that can be applied to specific network interfaces on avirtual network.
-
-- [ ] Azure Bastion.
-- [ ] Azure Firewall.
-- [x] Network security group (NSG).
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### A file makes the data in the file readable and usable to viewers that have the appropriate key.
-
-- [ ] Archiving.
-- [ ] Compressing.
-- [ ] Deduplicating.
-- [x] Encrypting.
 
 **[⬆ Back to Top](#table-of-contents)**
