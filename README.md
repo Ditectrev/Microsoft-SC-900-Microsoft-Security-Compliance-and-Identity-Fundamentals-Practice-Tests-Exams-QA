@@ -86,7 +86,7 @@
 | 80  | [Sensitivity labels can be used to encrypt documents.](#sensitivity-labels-can-be-used-to-encrypt-documents)
 | 81  | [Sensitivity labels can add headers and footers to documents.](#sensitivity-labels-can-add-headers-and-footers-to-documents)
 | 82  | [Sensitivity labels can apply watermarks to emails.](#sensitivity-labels-can-apply-watermarks-to-emails)
-| 83  | [[...] is a cloud-based solution that leverages on-premises Active Directory to identiy, detect, and investigate advanced threats.](#-is-a-cloud-based-solution-that-leverages-on-premises-active-directory-to-identiy-detect-and-investigate-advanced-threats)
+| 83  | [[...] is a cloud-based solution that leverages on-premises Active Directory signals to identify, detect, and investigate advanced threats.](#-is-a-cloud-based-solution-that-leverages-on-premises-active-directory-signals-to-identify-detect-and-investigate-advanced-threats)
 | 84  | [Azure Policy supports automatic remediation.](#azure-policy-supports-automatic-remediation)
 | 85  | [Azure Policy can be used to ensure that new resources adhere to corporate standards.](#azure-policy-can-be-used-to-ensure-that-new-resources-adhere-to-corporate-standards)
 | 86  | [Compliance evaluation in Azure Policy occurs only when a target resource is created or modified.](#compliance-evaluation-in-azure-policy-occurs-only-when-a-target-resource-is-created-or-modified)
@@ -737,7 +737,7 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### [...] is a cloud-based solution that leverages on-premises Active Directory to identiy, detect, and investigate advanced threats.
+### [...] is a cloud-based solution that leverages on-premises Active Directory signals to identify, detect, and investigate advanced threats.
 
 - [ ] Microsoft Cloud App Security.
 - [ ] Microsoft Defender for Endpoint.
@@ -818,9 +818,6 @@
 
 - [x] Yes.
 - [ ] No.
-=======
-- [ ] Yes.
-- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -903,13 +900,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Cloud Security Posture Management (CSPM) is available for all Azure subscriptions.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### Microsoft Defender for Cloud can evaluate the security of workloads deployed to Azure or on-premises.
 
 - [x] Yes.
@@ -936,15 +926,6 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which feature provides the extended detection and response (XDR) capability of Azure Sentinel?
-
-- [ ] integration with the Microsoft 365 compliance center.
-- [ ] support for threat hunting.
-- [x] integration with Microsoft 365 Defender.
-- [ ] support for Azure Monitor Workbooks.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### Which two Azure resources can a network security group (NSG) be associated with? Each correct answer presents a complete solution.
 
 - [ ] a network interface.
@@ -955,42 +936,10 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### [...] provides a central location for managing information protection, information governance, and data loss prevention (DLP) policies.
-
-- [ ] Azure Defender.
-- [x] The Microsoft 365 compliance center.
-- [ ] The Microsoft 365 security center.
-- [ ] Microsoft Endpoint Manager.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### You can add a resource lock to an Azure subscription.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### You can add only one resource lock to an Azure resource.
-
-- [ ] Yes.
-- [x] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### You can delete a resource group containing resources that have resource locks.
 
 - [ ] Yes.
 - [x] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Which Microsoft portal provides information about how Microsoft manages privacy, compliance, and security?
-
-- [x] Microsoft Service Trust Portal.
-- [ ] Compliance Manager.
-- [ ] Microsoft 365 compliance center.
-- [ ] Microsoft Support.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1038,21 +987,8 @@
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You can access the insider risk management solution from the Microsoft 365 compliance center.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### You can use the insider risk management solution to detect data leaks by unhappy employees.
-
-- [x] Yes.
-- [ ] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
 ### To which type of resource can Azure Bastion provide secure access?
+
 - [ ] Azure Files.
 - [ ] Azure SQL Managed Instances.
 - [x] Azure virtual machines.
@@ -1061,15 +997,9 @@
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Conditional access policies always enforce the use of multi-factor authentication (MFA).
+
 - [ ] Yes.
 - [x] No.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Conditional access policies can be used to block access to an application based on the location of the user.
-
-- [x] Yes.
-- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1166,24 +1096,16 @@
 
 - [ ] Microsoft 365 admin center.
 - [ ] Microsoft 365 Defender portal.
-- [x] Microsoft 365 Purview
-=======
-### What feature in Microsoft Defender for Endpoint provides the first line of defense against cyberthreats by reducing the attack surface?
-
-- [ ] automated remediation.
-- [ ] automated investigation.
-- [ ] advanced hunting.
-- [x] network protection.
+- [x] Microsoft 365 Purview.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Compliance Manager can be directly accessed from the [...].
 
-- [x] Microsoft 365 admin center.
+- [ ] Microsoft 365 admin center.
 - [ ] Microsoft 365 Defender portal.
-- [ ] Microsoft 365 Compliance Center
-
-- [ ]Microsoft Support portal.
+- [x] Microsoft 365 Compliance Center
+- [ ] Microsoft Support portal.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1193,15 +1115,6 @@
 - [ ] Run Express Analysis.
 - [ ] Configure attorney-client privilege detection.
 - [ ] Export and download results.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### [...] enables collaboration with business partners from external organizations such as suppliers, partners, and vendors. External users appear as guest users in the directory.
-
-- [ ] Active Directory Domain Services (AD DS).
-- [ ] Active Directory forest trusts.
-- [x] Azure Active Directory (Azure AD) business-to-business (B2B).
-- [ ] Azure Active Directory business-to-consumer B2C (Azure AD B2C).
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1654,6 +1567,81 @@
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Azure Bastion provides a secure connection to an Azure virtual machine by using the Azure portal.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Applying system updates increases an organization's secure score in Microsoft Defender for Cloud.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### The secure score in Microsoft Defender for Cloud can evaluate resources across multiple Azure subscriptions.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Enabling multi-factor authentication (MFA) increases an organization's secure score in Microsoft Defender for Cloud.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Which score measures an organization's progress in completing actions that help reduce risks associated to data protection and regulatory standards?
+
+- [ ] Microsoft Secure Score.
+- [ ] AProductivity Score.
+- [ ] Secure score in Azure Security Center.
+- [x] Compliance score.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Encrytp data at rest.
+
+- [ ] Corrective.
+- [ ] Detective.
+- [x] Preventative.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Perform a system access audit.
+
+- [ ] Corrective.
+- [x] Detective.
+- [ ] Preventative.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Make configuration changes in response to a security incident.
+
+- [x] Corrective.
+- [ ] Detective.
+- [ ] Preventative.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Conditional access policies can be applied to global administrators.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Conditional access policies are evaluated before a user is authenticated.
+
+- [ ] Yes.
+- [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Conditional access policies can use a device platform, such as Android or iOS, as a signal.
 
 - [x] Yes.
 - [ ] No.
