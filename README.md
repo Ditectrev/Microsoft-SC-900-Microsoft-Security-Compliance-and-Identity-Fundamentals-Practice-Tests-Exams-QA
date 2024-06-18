@@ -918,28 +918,11 @@
 
 ### Which two Azure resources can a network security group (NSG) be associated with?
 
-- [x] a network interface.
-- [ ] an Azure App Service web app.
-- [ ] a virtual network.
-- [x] a virtual network subnet.
-- [ ] a resource group.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Which two Azure resources can a network security group (NSG) be associated with? Each correct answer presents a complete solution.
-
-- [ ] a network interface.
-- [ ] an Azure App Service web app.
-- [x] a virtual network.
-- [ ] a virtual network subnet.
-- [x] a resource group.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### You can delete a resource group containing resources that have resource locks.
-
-- [ ] Yes.
-- [x] No.
+- [ ] Network interface.
+- [ ] Azure App Service web app.
+- [x] Virtual network.
+- [ ] Virtual network subnet.
+- [x] Resource group.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1115,15 +1098,6 @@
 - [ ] Run Express Analysis.
 - [ ] Configure attorney-client privilege detection.
 - [ ] Export and download results.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### can be used to provide Microsoft Support Engineers with access to an organization's data stored in Microsoft Exchange Online, SharePoint Online, and OneDrive for
-
-- [x] Customer Lockbox.
-- [ ] Information barriers.
-- [ ] Privileged Access Management (PAM) Business.
-- [ ] Sensitivity labels.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1451,8 +1425,8 @@
 
 - [ ] 15 days.
 - [ ] 30 days.
-- [ ] 90 days.
-- [x] 180 days.
+- [x] 90 days.
+- [ ] 180 days.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1645,5 +1619,162 @@
 
 - [x] Yes.
 - [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Which two cards are available in the Microsoft 365 Defender portal?
+
+- [ ] Users at risk.
+- [x] Compliance Score.
+- [x] Devices at risk.
+- [ ] Service Health.
+- [ ] User Management.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Microsoft 365 Endpoint data loss prevention (Endpoint DLP) can be used on which operating systems?
+
+- [x] Windows 10 and iOS only.
+- [ ] Windows 10 and Android only.
+- [ ] Windows 10, Android, and iOS.
+- [ ] Windows 10 only.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Which compliance feature should you use to identify documents that are employee resumes?
+
+- [ ] Pre-trained classifiers.
+- [ ] Content explorer.
+- [x] Activity explorer.
+- [ ] eDiscovery.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### What are customers responsible for when evaluating security in a software as a service (SaaS) cloud services model?
+
+- [ ] Applications.
+- [ ] Network controls.
+- [ ] Operating systems.
+- [x] Accounts and identities.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You need to create a data loss prevention (DLP) policy. What should you use?
+
+- [x] Microsoft 365 admin center.
+- [ ] Microsoft Endpoint Manager admin center.
+- [ ] Microsoft 365 Defender portal.
+- [ ] Microsoft 365 Compliance center.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### What is an assessment in Compliance Manager?
+
+- [ ] A grouping of controls from a specific regulation, standard or policy.
+- [x] Recommended guidance to help organizations align with their corporate standards.
+- [ ] A dictionary of words that are not allowed in company documents.
+- [ ] A policy initiative that includes multiple policies.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You need to keep a copy of all files in a Microsoft SharePoint site for one year, even if users delete the files from the site. What should you apply to the site?
+
+- [ ] a data loss prevention (DLP) policy.
+- [x] a retention policy.
+- [ ] an insider risk policy.
+- [ ] a sensitivity label policy.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### What can you use to view the Microsoft Secure Score for Devices?
+
+- [ ] Microsoft Defender for Cloud Apps.
+- [x] Microsoft Defender for Endpoint.
+- [ ] Microsoft Defender for Identity.
+- [ ] Microsoft Defender for Office 365.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Triage - ???
+
+- [x] Review and filter alerts.
+- [ ] Create cases in the Case dashboard.
+- [ ] Send a reminder of corporate policies to users.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Investigate - ???
+
+- [ ] Review and filter alerts.
+- [x] Create cases in the Case dashboard.
+- [ ] Send a reminder of corporate policies to users.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Action - ???
+
+- [ ] Review and filter alerts.
+- [ ] Create cases in the Case dashboard.
+- [x] Send a reminder of corporate policies to users.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Users can apply sensitivity labels manually.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Multiple sensitivity labels can be applied to the same file.
+
+- [ ] Yes.
+- [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### A sensitivity abel can apply a watermark to a Microsoft Word document.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You can use Advanced Audit in Micrdsoft 365 to view billing details.
+
+- [ ] Yes.
+- [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You can use Advanced Auditin Microsoft 365 to view the contents of an email message.
+
+- [ ] Yes.
+- [x] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### You can use Advanced Auditin Microsoft 365 to view when a user sees the search bar in Outlook on the web to search for message in a mailbox.
+
+- [x] Yes.
+- [ ] No.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### What can you specify in Microsoft 365 sensitivity labels?
+
+- [ ] How long files must be preserved.
+- [ ] When to archive an email message.
+- [x] Which watermark to add to files.
+- [ ] Where to store files.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### What can you protect by using the information protection solution in the Microsoft 365 compliance center?
+
+- [ ] Computers from zero-day exploits.
+- [ ] Users from phishing attempts.
+- [ ] Files from malware and viruses.
+- [x] Sensitive data from being exposed to unauthorized users.
 
 **[⬆ Back to Top](#table-of-contents)**
