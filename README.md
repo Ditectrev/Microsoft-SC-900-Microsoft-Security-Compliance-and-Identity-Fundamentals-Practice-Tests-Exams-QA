@@ -168,12 +168,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 115 | [Conditional access policies always enforce the use of multi-factor authentication (MFA).](#conditional-access-policies-always-enforce-the-use-of-multi-factor-authentication-mfa)
 | 116 | [Conditional access policies only affect users who have Azure Active Directory (Azure AD)- joined devices.](#conditional-access-policies-only-affect-users-who-have-azure-active-directory-azure-ad--joined-devices)
 | 117 | [Microsoft Sentinel [...] use Azure Logic Apps to automate and orchestrate responses to alerts.](#microsoft-sentinel--use-azure-logic-apps-to-automate-and-orchestrate-responses-to-alerts)
-| 118 | [What are three uses of Microsoft Cloud App Security? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.](#what-are-three-uses-of-microsoft-cloud-app-security-each-correct-answer-presents-a-complete-solution-note-each-correct-selection-is-worth-one-point)
+| 118 | [What are three uses of Microsoft Cloud App Security?](#what-are-three-uses-of-microsoft-cloud-app-security)
 | 119 | [Azure Active Directory (Azure AD) is deployed to an on- premises environment.](#azure-active-directory-azure-ad-is-deployed-to-an-on--premises-environment)
 | 120 | [Azure Active Directory (Azure AD) is provided as part of a Microsoft 365 subscription.](#azure-active-directory-azure-ad-is-provided-as-part-of-a-microsoft-365-subscription)
 | 121 | [Azure Active Directory (Azure AD) is an identity and access management service.](#azure-active-directory-azure-ad-is-an-identity-and-access-management-service)
 | 122 | [Which service should you use to view your Azure secure score?](#which-service-should-you-use-to-view-your-azure-secure-score)
-| 123 | [Which two types of resources can be protected by using Azure Firewall? Each correct answer presents a complete solution.](#which-two-types-of-resources-can-be-protected-by-using-azure-firewall-each-correct-answer-presents-a-complete-solution)
+| 123 | [Which two types of resources can be protected by using Azure Firewall?](#which-two-types-of-resources-can-be-protected-by-using-azure-firewall)
 | 124 | [What can you use to provide threat detection for Azure SQL Managed Instance?](#what-can-you-use-to-provide-threat-detection-for-azure-sql-managed-instance)
 | 125 | [[...] can use conditional access policies to control sessions in real time.](#-can-use-conditional-access-policies-to-control-sessions-in-real-time)
 | 126 | [Compliance Manager can be directly accessed from the [...].](#compliance-manager-can-be-directly-accessed-from-the-)
@@ -192,7 +192,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 139 | [Verify explicitly is one of the guiding principles of Zero Trust.](#verify-explicitly-is-one-of-the-guiding-principles-of-zero-trust)
 | 140 | [Assume breach is one of the guiding principles of Zero Trust.](#assume-breach-is-one-of-the-guiding-principles-of-zero-trust)
 | 141 | [The Zero Trust security model assumes that a firewall secures the internal network from external threats.](#the-zero-trust-security-model-assumes-that-a-firewall-secures-the-internal-network-from-external-threats)
-| 142 | [is the process of identifying whether a signed-in user can access a specific resource.](#is-the-process-of-identifying-whether-a-signed-in-user-can-access-a-specific-resource)
+| 142 | [[...] is the process of identifying whether a signed-in user can access a specific resource.](#-is-the-process-of-identifying-whether-a-signed-in-user-can-access-a-specific-resource)
 | 143 | [Which three statements accurately describe the guiding principles of Zero Trust?](#which-three-statements-accurately-describe-the-guiding-principles-of-zero-trust)
 | 144 | [A higher Microsoft Secure Score means a lower identified risk level in the Microsoft 365 tenant.](#a-higher-microsoft-secure-score-means-a-lower-identified-risk-level-in-the-microsoft-365-tenant)
 | 145 | [Microsoft Secure Score measures progress in completing actions based on controls that include key regulations and standards for data protection and governance.](#microsoft-secure-score-measures-progress-in-completing-actions-based-on-controls-that-include-key-regulations-and-standards-for-data-protection-and-governance)
@@ -238,9 +238,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 185 | [The secure score in Microsoft Defender for Cloud can evaluate resources across multiple Azure subscriptions.](#the-secure-score-in-microsoft-defender-for-cloud-can-evaluate-resources-across-multiple-azure-subscriptions)
 | 186 | [Enabling multi-factor authentication (MFA) increases an organization's secure score in Microsoft Defender for Cloud.](#enabling-multi-factor-authentication-mfa-increases-an-organizations-secure-score-in-microsoft-defender-for-cloud)
 | 187 | [Which score measures an organization's progress in completing actions that help reduce risks associated to data protection and regulatory standards?](#which-score-measures-an-organizations-progress-in-completing-actions-that-help-reduce-risks-associated-to-data-protection-and-regulatory-standards)
-| 188 | [Encrytp data at rest.](#encrytp-data-at-rest)
-| 189 | [Perform a system access audit.](#perform-a-system-access-audit)
-| 190 | [Make configuration changes in response to a security incident.](#make-configuration-changes-in-response-to-a-security-incident)
+| 188 | [You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. Encrypt data at rest.](#you-are-evaluating-the-compliance-score-in-compliance-manager-match-the-compliance-score-action-subcategories-to-the-appropriate-actions-encrypt-data-at-rest)
+| 189 | [You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. Perform a system access audit.](#you-are-evaluating-the-compliance-score-in-compliance-manager-match-the-compliance-score-action-subcategories-to-the-appropriate-actions-perform-a-system-access-audit)
+| 190 | [You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. Make configuration changes in response to a security incident.](#you-are-evaluating-the-compliance-score-in-compliance-manager-match-the-compliance-score-action-subcategories-to-the-appropriate-actions-make-configuration-changes-in-response-to-a-security-incident)
 | 191 | [Conditional access policies can be applied to global administrators.](#conditional-access-policies-can-be-applied-to-global-administrators)
 | 192 | [Conditional access policies are evaluated before a user is authenticated.](#conditional-access-policies-are-evaluated-before-a-user-is-authenticated)
 | 193 | [Conditional access policies can use a device platform, such as Android or iOS, as a signal.](#conditional-access-policies-can-use-a-device-platform-such-as-android-or-ios-as-a-signal)
@@ -252,9 +252,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 199 | [What is an assessment in Compliance Manager?](#what-is-an-assessment-in-compliance-manager)
 | 200 | [You need to keep a copy of all files in a Microsoft SharePoint site for one year, even if users delete the files from the site. What should you apply to the site?](#you-need-to-keep-a-copy-of-all-files-in-a-microsoft-sharepoint-site-for-one-year-even-if-users-delete-the-files-from-the-site-what-should-you-apply-to-the-site)
 | 201 | [What can you use to view the Microsoft Secure Score for Devices?](#what-can-you-use-to-view-the-microsoft-secure-score-for-devices)
-| 202 | [Triage - ???](#triage---)
-| 203 | [Investigate - ???](#investigate---)
-| 204 | [Action - ???](#action---)
+| 202 | [Match the Microsoft 365 insider risk management workflow step to the appropriate task. [...] Review and filter alerts.](#match-the-microsoft-365-insider-risk-management-workflow-step-to-the-appropriate-task--review-and-filter-alerts)
+| 203 | [Match the Microsoft 365 insider risk management workflow step to the appropriate task. [...] Create cases in the Case dashboard.](#match-the-microsoft-365-insider-risk-management-workflow-step-to-the-appropriate-task--create-cases-in-the-case-dashboard)
+| 204 | [Match the Microsoft 365 insider risk management workflow step to the appropriate task. [...] Send a reminder of corporate policies to users.](#match-the-microsoft-365-insider-risk-management-workflow-step-to-the-appropriate-task--send-a-reminder-of-corporate-policies-to-users)
 | 205 | [Users can apply sensitivity labels manually.](#users-can-apply-sensitivity-labels-manually)
 | 206 | [Multiple sensitivity labels can be applied to the same file.](#multiple-sensitivity-labels-can-be-applied-to-the-same-file)
 | 207 | [A sensitivity abel can apply a watermark to a Microsoft Word document.](#a-sensitivity-abel-can-apply-a-watermark-to-a-microsoft-word-document)
@@ -290,7 +290,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Customer Lockbox.
 - [ ] Data loss prevention (DLP).
 - [x] eDiscovery.
-- [ ] A resource lock.
+- [ ] Resource lock.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -395,10 +395,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You can use [...] in the Microsoft 365 security center to identify devices that are affected by an alert.
 
-- [ ] Classifications.
-- [x] Incidents.
-- [ ] Policies.
-- [ ] Secure score.
+- [ ] classifications.
+- [x] incidents.
+- [ ] policies.
+- [ ] secure score.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -775,7 +775,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Azure AD Connect.
 - [ ] Log Analytics workspace.
 - [ ] Azure Information Protection.
-- [x] A data connector.
+- [x] Data connector.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1126,7 +1126,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### actively monitor systems to identify irregularities that might represent risks.
+### Actively monitor systems to identify irregularities that might represent risks.
 
 - [ ] Corrective.
 - [x] Detective.
@@ -1173,13 +1173,13 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### What are three uses of Microsoft Cloud App Security? Each correct answer presents a complete solution. NOTE: Each correct selection is worth one point.
+### What are three uses of Microsoft Cloud App Security?
 
-- [x] to discover and control the use of shadow IT
-- [ ] to provide secure connections to Azure virtual machines
-- [x] to protect sensitive information hosted anywhere in the cloud
-- [ ] to provide pass-through authentication to on-premises applications
-- [x] to prevent data leaks to noncompliant apps and limit access to regulated data
+- [x] Discover and control the use of shadow IT
+- [ ] Provide secure connections to Azure virtual machines
+- [x] Protect sensitive information hosted anywhere in the cloud
+- [ ] Provide pass-through authentication to on-premises applications
+- [x] Prevent data leaks to noncompliant apps and limit access to regulated data
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1217,7 +1217,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which two types of resources can be protected by using Azure Firewall? Each correct answer presents a complete solution.
+### Which two types of resources can be protected by using Azure Firewall?
 
 - [x] Azure virtual machines.
 - [ ] Azure Active Directory (Azure AD) users.
@@ -1230,7 +1230,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### What can you use to provide threat detection for Azure SQL Managed Instance?
 
 - [ ] Microsoft Secure Score.
-- [ ] application security groups.
+- [ ] Application security groups.
 - [x] Microsoft Defender for Cloud.
 - [x] Azure Defender.
 - [ ] Azure Bastion.
@@ -1295,28 +1295,28 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which Microsoft 365 feature can you use to restrict users from sending email messages that contain lists of customers and their associated credit card numbers?
 
-- [ ] retention policies.
-- [x] data loss prevention (DLP) policies.
-- [ ] conditional access policies.
-- [ ] information barriers.
+- [ ] Retention policies.
+- [x] Data loss prevention (DLP) policies.
+- [ ] Conditional access policies.
+- [ ] Information barriers.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which Azure Active Directory (Azure AD) feature can you use to evaluate group membership and automatically remove users that no longer require membership in a group?
 
-- [x] access reviews.
-- [ ] managed identities.
-- [ ] conditional access policies.
+- [x] Access reviews.
+- [ ] Managed identities.
+- [ ] Conditional access policies.
 - [ ] Azure AD Identity Protection.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Which Microsoft portal provides information about how Microsoft cloud services comply with regulatory standard, such as International Organization for Standardization (ISO)?
 
-- [ ] the Microsoft Endpoint Manager admin center.
+- [ ] Microsoft Endpoint Manager admin center.
 - [ ] Azure Cost Management + Billing.
 - [x] Microsoft Service Trust Portal.
-- [ ] the Azure Active Directory admin center.
+- [ ] Azure Active Directory admin center.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1333,7 +1333,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Azure AD Identity Protection.
 - [ ] Azure AD Privileged Identity Management (PIM).
-- [x] multi-factor authentication (MFA).
+- [x] Multi-factor authentication (MFA).
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1376,7 +1376,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### is the process of identifying whether a signed-in user can access a specific resource.
+### [...] is the process of identifying whether a signed-in user can access a specific resource.
 
 - [ ] Authentication.
 - [x] Authorization.
@@ -1437,10 +1437,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which three authentication methods does Windows Hello for Business support?
 
-- [x] fingerprint.
-- [x] facial recognition.
+- [x] Fingerprint.
+- [x] Facial recognition.
 - [x] PIN.
-- [ ] email verification.
+- [ ] Email verification.
 - [ ] security question.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1449,7 +1449,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Windows Hello for Business.
 - [ ] Azure Active Directory (Azure AD) Identity Protection.
-- [ ] access reviews in Azure Active Directory (Azure AD).
+- [ ] Access reviews in Azure Active Directory (Azure AD).
 - [x] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1487,10 +1487,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which type of identity is created when you register an application with Active Directory (Azure AD)?
 
-- [ ] a user account.
-- [ ] a user-assigned managed identity.
-- [ ] a system-assigned managed identity.
-- [x] a service principal.
+- [ ] User account.
+- [ ] User-assigned managed identity.
+- [ ] System-assigned managed identity.
+- [x] Service principal.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1536,10 +1536,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An Azure resource can use a system-assigned [...] to access Azure services.
 
-- [ ] Azure Active Directory (Azure AD) joined device
-- [x] managed identity
-- [ ] service principal
-- [ ] user identity
+- [ ] Azure Active Directory (Azure AD) joined device.
+- [x] managed identity.
+- [ ] service principal.
+- [ ] user identity.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1576,10 +1576,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which Azure Active Directory (Azure AD) feature can you use to restrict Microsoft Intune-managed devices from accessing corporate resources?
 
-- [ ] network security groups (NSGs).
+- [ ] Network security groups (NSGs).
 - [ ] Azure AD Privileged Identity Management (PIM).
-- [x] conditional access policies.
-- [ ] resource locks.
+- [x] Conditional access policies.
+- [ ] Resource locks.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1613,9 +1613,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You need to connect to an Azure virtual machine by using Azure Bastion. What should you use?
 
 - [ ] PowerShell remoting.
-- [x] the Azure portal.
-- [ ] the Remote Desktop Connection client.
-- [ ] an SSH client.
+- [x] Azure portal.
+- [ ] Remote Desktop Connection client.
+- [ ] SSH client.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1660,10 +1660,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What is a use case for implementing information barrier policies in Microsoft 365?
 
-- [ ] to restrict unauthenticated access to Microsoft 365.
-- [x] to restrict Microsoft Teams chats between certain groups within an organization.
-- [ ] to restrict Microsoft Exchange Online email between certain groups within an organization.
-- [ ] to restrict data sharing to external email recipients.
+- [ ] Restrict unauthenticated access to Microsoft 365.
+- [x] Restrict Microsoft Teams chats between certain groups within an organization.
+- [ ] Restrict Microsoft Exchange Online email between certain groups within an organization.
+- [ ] Restrict data sharing to external email recipients.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1748,7 +1748,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Encrytp data at rest.
+### You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. [...] Encrypt data at rest.
 
 - [ ] Corrective.
 - [ ] Detective.
@@ -1756,7 +1756,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Perform a system access audit.
+### You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. [...] Perform a system access audit.
 
 - [ ] Corrective.
 - [x] Detective.
@@ -1764,7 +1764,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Make configuration changes in response to a security incident.
+### You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. [...] Make configuration changes in response to a security incident.
 
 - [x] Corrective.
 - [ ] Detective.
@@ -1841,19 +1841,19 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What is an assessment in Compliance Manager?
 
-- [ ] A grouping of controls from a specific regulation, standard or policy.
+- [ ] Grouping of controls from a specific regulation, standard or policy.
 - [x] Recommended guidance to help organizations align with their corporate standards.
-- [ ] A dictionary of words that are not allowed in company documents.
-- [ ] A policy initiative that includes multiple policies.
+- [ ] Dictionary of words that are not allowed in company documents.
+- [ ] Policy initiative that includes multiple policies.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### You need to keep a copy of all files in a Microsoft SharePoint site for one year, even if users delete the files from the site. What should you apply to the site?
 
-- [ ] a data loss prevention (DLP) policy.
-- [x] a retention policy.
-- [ ] an insider risk policy.
-- [ ] a sensitivity label policy.
+- [ ] Data loss prevention (DLP) policy.
+- [x] Retention policy.
+- [ ] Insider risk policy.
+- [ ] Sensitivity label policy.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1866,27 +1866,27 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Triage - ???
+### Match the Microsoft 365 insider risk management workflow step to the appropriate task. [...] Review and filter alerts.
 
-- [x] Review and filter alerts.
-- [ ] Create cases in the Case dashboard.
-- [ ] Send a reminder of corporate policies to users.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### Investigate - ???
-
-- [ ] Review and filter alerts.
-- [x] Create cases in the Case dashboard.
-- [ ] Send a reminder of corporate policies to users.
+- [x] Triage.
+- [ ] Investigate.
+- [ ] Action.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Action - ???
+### Match the Microsoft 365 insider risk management workflow step to the appropriate task. [...] Create cases in the Case dashboard.
 
-- [ ] Review and filter alerts.
-- [ ] Create cases in the Case dashboard.
-- [x] Send a reminder of corporate policies to users.
+- [ ] Triage.
+- [x] Investigate.
+- [ ] Action.
+
+**[⬆ Back to Top](#table-of-contents)**
+
+### Match the Microsoft 365 insider risk management workflow step to the appropriate task. [...] Send a reminder of corporate policies to users.
+
+- [ ] Triage.
+- [ ] Investigate.
+- [x] Action.
 
 **[⬆ Back to Top](#table-of-contents)**
 
