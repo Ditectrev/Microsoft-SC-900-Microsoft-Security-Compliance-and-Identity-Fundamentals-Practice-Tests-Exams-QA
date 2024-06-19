@@ -161,8 +161,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 108 | [Azure AD Connect can be used to implement hybrid identity.](#azure-ad-connect-can-be-used-to-implement-hybrid-identity)
 | 109 | [Hybrid identity requires the implementation of two Microsoft 365 tenants.](#hybrid-identity-requires-the-implementation-of-two-microsoft-365-tenants)
 | 110 | [Hybrid identity refers to the synchronization of Active Directory Domain Services (AD DS) and Azure Active Directory (Azure AD).](#hybrid-identity-refers-to-the-synchronization-of-active-directory-domain-services-ad-ds-and-azure-active-directory-azure-ad)
-| 111 | [use encryption to protect data at rest.](#use-encryption-to-protect-data-at-rest)
-| 112 | [actively monitor systems to identify irregularities that might represent risks.](#actively-monitor-systems-to-identify-irregularities-that-might-represent-risks)
+| 111 | [Match the types of compliance score actions to the appropriate tasks. [...] Use encryption to protect data at rest.](#match-the-types-of-compliance-score-actions-to-the-appropriate-tasks--use-encryption-to-protect-data-at-rest)
+| 112 | [Match the types of compliance score actions to the appropriate tasks. [...] Actively monitor systems to identify irregularities that might represent risks.](#match-the-types-of-compliance-score-actions-to-the-appropriate-tasks--actively-monitor-systems-to-identify-irregularities-that-might-represent-risks)
 | 113 | [You can use the insider risk management solution to detect phishing scams.](#you-can-use-the-insider-risk-management-solution-to-detect-phishing-scams)
 | 114 | [To which type of resource can Azure Bastion provide secure access?](#to-which-type-of-resource-can-azure-bastion-provide-secure-access)
 | 115 | [Conditional access policies always enforce the use of multi-factor authentication (MFA).](#conditional-access-policies-always-enforce-the-use-of-multi-factor-authentication-mfa)
@@ -1118,7 +1118,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### use encryption to protect data at rest.
+### Match the types of compliance score actions to the appropriate tasks. [...] Use encryption to protect data at rest.
 
 - [ ] Corrective.
 - [ ] Detective.
@@ -1126,7 +1126,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Actively monitor systems to identify irregularities that might represent risks.
+### Match the types of compliance score actions to the appropriate tasks. [...] Actively monitor systems to identify irregularities that might represent risks.
 
 - [ ] Corrective.
 - [x] Detective.
