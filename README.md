@@ -166,10 +166,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 113 | [You can use the insider risk management solution to detect phishing scams.](#you-can-use-the-insider-risk-management-solution-to-detect-phishing-scams)
 | 114 | [To which type of resource can Azure Bastion provide secure access?](#to-which-type-of-resource-can-azure-bastion-provide-secure-access)
 | 115 | [Conditional access policies always enforce the use of multi-factor authentication (MFA).](#conditional-access-policies-always-enforce-the-use-of-multi-factor-authentication-mfa)
-| 116 | [Conditional access policies only affect users who have Azure Active Directory (Azure AD)- joined devices.](#conditional-access-policies-only-affect-users-who-have-azure-active-directory-azure-ad--joined-devices)
+| 116 | [What can you protect by using the information protection solution in the Microsoft 365 compliance center?](#what-can-you-protect-by-using-the-information-protection-solution-in-the-microsoft-365-compliance-center)
 | 117 | [Microsoft Sentinel [...] use Azure Logic Apps to automate and orchestrate responses to alerts.](#microsoft-sentinel--use-azure-logic-apps-to-automate-and-orchestrate-responses-to-alerts)
 | 118 | [What are three uses of Microsoft Cloud App Security?](#what-are-three-uses-of-microsoft-cloud-app-security)
-| 119 | [Azure Active Directory (Azure AD) is deployed to an on- premises environment.](#azure-active-directory-azure-ad-is-deployed-to-an-on--premises-environment)
+| 119 | [Azure Active Directory (Azure AD) is deployed to an on premises environment.](#azure-active-directory-azure-ad-is-deployed-to-an-on-premises-environment)
 | 120 | [Azure Active Directory (Azure AD) is provided as part of a Microsoft 365 subscription.](#azure-active-directory-azure-ad-is-provided-as-part-of-a-microsoft-365-subscription)
 | 121 | [Azure Active Directory (Azure AD) is an identity and access management service.](#azure-active-directory-azure-ad-is-an-identity-and-access-management-service)
 | 122 | [Which service should you use to view your Azure secure score?](#which-service-should-you-use-to-view-your-azure-secure-score)
@@ -262,7 +262,6 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 209 | [You can use Advanced Auditin Microsoft 365 to view the contents of an email message.](#you-can-use-advanced-auditin-microsoft-365-to-view-the-contents-of-an-email-message)
 | 210 | [You can use Advanced Auditin Microsoft 365 to view when a user sees the search bar in Outlook on the web to search for message in a mailbox.](#you-can-use-advanced-auditin-microsoft-365-to-view-when-a-user-sees-the-search-bar-in-outlook-on-the-web-to-search-for-message-in-a-mailbox)
 | 211 | [What can you specify in Microsoft 365 sensitivity labels?](#what-can-you-specify-in-microsoft-365-sensitivity-labels)
-| 212 | [What can you protect by using the information protection solution in the Microsoft 365 compliance center?](#what-can-you-protect-by-using-the-information-protection-solution-in-the-microsoft-365-compliance-center)
 
 ### Conditional access policies always enforce the user of multi-factor authentication (MFA).
 
@@ -1157,10 +1156,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Conditional access policies only affect users who have Azure Active Directory (Azure AD)- joined devices.
+### What can you protect by using the information protection solution in the Microsoft 365 compliance center?
 
-- [ ] Yes.
-- [x] No.
+- [ ] Computers from zero-day exploits.
+- [ ] Users from phishing attempts.
+- [ ] Files from malware and viruses.
+- [x] Sensitive data from being exposed to unauthorized users.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1175,15 +1176,15 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What are three uses of Microsoft Cloud App Security?
 
-- [x] Discover and control the use of shadow IT
-- [ ] Provide secure connections to Azure virtual machines
-- [x] Protect sensitive information hosted anywhere in the cloud
-- [ ] Provide pass-through authentication to on-premises applications
-- [x] Prevent data leaks to noncompliant apps and limit access to regulated data
+- [x] Discover and control the use of shadow IT.
+- [ ] Provide secure connections to Azure virtual machines.
+- [x] Protect sensitive information hosted anywhere in the cloud.
+- [ ] Provide pass-through authentication to on-premises applications.
+- [x] Prevent data leaks to noncompliant apps and limit access to regulated data.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) is deployed to an on- premises environment.
+### Azure Active Directory (Azure AD) is deployed to an on premises environment.
 
 - [ ] Yes.
 - [x] No.
@@ -1938,14 +1939,5 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] When to archive an email message.
 - [x] Which watermark to add to files.
 - [ ] Where to store files.
-
-**[⬆ Back to Top](#table-of-contents)**
-
-### What can you protect by using the information protection solution in the Microsoft 365 compliance center?
-
-- [ ] Computers from zero-day exploits.
-- [ ] Users from phishing attempts.
-- [ ] Files from malware and viruses.
-- [x] Sensitive data from being exposed to unauthorized users.
 
 **[⬆ Back to Top](#table-of-contents)**
