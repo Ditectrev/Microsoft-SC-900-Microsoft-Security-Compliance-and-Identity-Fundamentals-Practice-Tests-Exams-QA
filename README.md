@@ -19,12 +19,23 @@
 1. Always happy to answer your questions on Udemy's Q&A's and outside :)
 2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
 3. Learn about topics, such as:
-   - ...
+   - Azure Active Directory (Azure AD);
+   - Azure Bastion;
+   - Azure Defender;
+   - Azure Firewall;
+   - Azure Policy;
+   - Azure Security Center;
+   - Conditional Access Policies;
+   - Microsoft Cloud App Security;
+   - Microsoft 365 Compliance Center;
+   - Microsoft Defender;
+   - Multi-Factor Authentication (MFA);
+   - Privileged Identity Management (PIM);
    - **Much More!**
 4. Questions are similar to the actual exam, without duplications (like in other courses ;-)).
 5. The Practice Tests Exams simulate the actual exam's content, timing, and percentage required to pass the exam.
 6. This course is **not** an Microsoft SC-900 (Microsoft Security, Compliance, and Identity Fundamentals) Exam Dump. Some people use brain dumps or exam dumps, but that's absurd, which we don't practice.
-7. 212 **unique** questions.
+7. 211 **unique** questions.
 
 ## ☝️ Course Updates
 
@@ -91,9 +102,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 38  | [What is an example of encryption at rest?](#what-is-an-example-of-encryption-at-rest)
 | 39  | [Azure DDoS Protection Standard can be used to protect [...].](#azure-ddos-protection-standard-can-be-used-to-protect-)
 | 40  | [Which three authentication methods can be used by Azure Multi-Factor Authentication (MFA)?](#which-three-authentication-methods-can-be-used-by-azure-multi-factor-authentication-mfa)
-| 41  | [Which Microsoft 365 compliance center feature can you use to identify all the documents on a Microsoft SharePoint Online site that contain a specific key word?](#which-microsoft-365-compliance-center-feature-can-you-use-to-identify-all-the-documents-on-a-microsoft-sharepoint-online-site-that-contain-a-specific-key-word)
+| 41  | [Which Microsoft 365 Compliance Center feature can you use to identify all the documents on a Microsoft SharePoint Online site that contain a specific key word?](#which-microsoft-365-compliance-center-feature-can-you-use-to-identify-all-the-documents-on-a-microsoft-sharepoint-online-site-that-contain-a-specific-key-word)
 | 42  | [You can use the insider risk management solution to detect phising scams.](#you-can-use-the-insider-risk-management-solution-to-detect-phising-scams)
-| 43  | [You can access the insider risk management solution from the Microsoft 365 compliance center.](#you-can-access-the-insider-risk-management-solution-from-the-microsoft-365-compliance-center)
+| 43  | [You can access the insider risk management solution from the Microsoft 365 Compliance Center.](#you-can-access-the-insider-risk-management-solution-from-the-microsoft-365-compliance-center)
 | 44  | [You can use the insider risk management solution to detect data leaks by unhappy employees.](#you-can-use-the-insider-risk-management-solution-to-detect-data-leaks-by-unhappy-employees)
 | 45  | [What are two capabilities of Microsoft Defender for Endpoint?](#what-are-two-capabilities-of-microsoft-defender-for-endpoint)
 | 46  | [Microsoft Intune can be used to manage Android devices.](#microsoft-intune-can-be-used-to-manage-android-devices)
@@ -166,7 +177,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 113 | [You can use the insider risk management solution to detect phishing scams.](#you-can-use-the-insider-risk-management-solution-to-detect-phishing-scams)
 | 114 | [To which type of resource can Azure Bastion provide secure access?](#to-which-type-of-resource-can-azure-bastion-provide-secure-access)
 | 115 | [Conditional access policies always enforce the use of multi-factor authentication (MFA).](#conditional-access-policies-always-enforce-the-use-of-multi-factor-authentication-mfa)
-| 116 | [What can you protect by using the information protection solution in the Microsoft 365 compliance center?](#what-can-you-protect-by-using-the-information-protection-solution-in-the-microsoft-365-compliance-center)
+| 116 | [What can you protect by using the information protection solution in the Microsoft 365 Compliance Center?](#what-can-you-protect-by-using-the-information-protection-solution-in-the-microsoft-365-compliance-center)
 | 117 | [Microsoft Sentinel [...] use Azure Logic Apps to automate and orchestrate responses to alerts.](#microsoft-sentinel--use-azure-logic-apps-to-automate-and-orchestrate-responses-to-alerts)
 | 118 | [What are three uses of Microsoft Cloud App Security?](#what-are-three-uses-of-microsoft-cloud-app-security)
 | 119 | [Azure Active Directory (Azure AD) is deployed to an on premises environment.](#azure-active-directory-azure-ad-is-deployed-to-an-on-premises-environment)
@@ -511,7 +522,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [x] Microsoft Service Trust Portal.
 - [ ] Compliance Manager.
-- [ ] Microsoft 365 compliance center.
+- [ ] Microsoft 365 Compliance Center.
 - [ ] Microsoft Support.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -583,7 +594,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which Microsoft 365 compliance center feature can you use to identify all the documents on a Microsoft SharePoint Online site that contain a specific key word?
+### Which Microsoft 365 Compliance Center feature can you use to identify all the documents on a Microsoft SharePoint Online site that contain a specific key word?
 
 - [ ] Audit.
 - [ ] Compliance Manager.
@@ -599,7 +610,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You can access the insider risk management solution from the Microsoft 365 compliance center.
+### You can access the insider risk management solution from the Microsoft 365 Compliance Center.
 
 - [x] Yes.
 - [ ] No.
@@ -822,7 +833,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which feature provides the extended detection and response (XDR) capability of Azure Sentinel?
 
-- [ ] Integration with the Microsoft 365 compliance center.
+- [ ] Integration with the Microsoft 365 Compliance Center.
 - [ ] Support for threat hunting.
 - [x] Integration with Microsoft 365 Defender.
 - [ ] Support for Azure Monitor Workbooks.
@@ -1156,7 +1167,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### What can you protect by using the information protection solution in the Microsoft 365 compliance center?
+### What can you protect by using the information protection solution in the Microsoft 365 Compliance Center?
 
 - [ ] Computers from zero-day exploits.
 - [ ] Users from phishing attempts.
@@ -1259,7 +1270,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Microsoft 365 admin center.
 - [ ] Microsoft 365 Defender portal.
-- [x] Microsoft 365 Compliance Center
+- [x] Microsoft 365 Compliance Center.
 - [ ] Microsoft Support portal.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1350,7 +1361,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You can manage Microsoft Intune by using the
 
 - [ ] Azure Active Directory admin center.
-- [ ] Microsoft 365 compliance center.
+- [ ] Microsoft 365 Compliance Center.
 - [ ] Microsoft 365 Defender portal.
 - [x] Microsoft Endpoint Manager admin center.
 
