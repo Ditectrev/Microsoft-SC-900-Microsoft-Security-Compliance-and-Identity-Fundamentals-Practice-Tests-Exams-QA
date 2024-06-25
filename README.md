@@ -50,7 +50,28 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ## Who this course is for:
 
 - 👨‍🎓 Students preparing for the Microsoft SC-900 (Microsoft Security, Compliance, and Identity Fundamentals) Exam;
-- ...
+- 👨‍🎓 AWS Engineers;
+- 👨‍🎓 Azure Engineers;
+- 👨‍🎓 Cloud Architects;
+- 👨‍🎓 Cloud Engineers;
+- 👨‍🎓 DevOps Engineers;
+- 👨‍🎓 Enterprise Architects;
+- 👨‍🎓 Google Cloud Platform (GCP) Engineers;
+- 👨‍🎓 Infrastructure Engineers;
+- 👨‍🎓 IT Professionals;
+- 👨‍🎓 Lead Engineers;
+- 👨‍🎓 Network Engineers;
+- 👨‍🎓 Product Architects;
+- 👨‍🎓 Product Managers;
+- 👨‍🎓 Product Owners;
+- 👨‍🎓 Project Managers;
+- 👨‍🎓 Scrum Masters;
+- 👨‍🎓 Security Specialists;
+- 👨‍🎓 Site Reliability Engineers;
+- 👨‍🎓 Software Developers/Engineers;
+- 👨‍🎓 Software Testers;
+- 👨‍🎓 Solution Architects;
+- 👨‍🎓 Team Leaders.
 
 ## Requirements
 
