@@ -39,7 +39,7 @@
 
 ## ☝️ Course Updates
 
-**[v1.0.0](../../releases/tag/v1.0.0): June XX, 2024.**
+**[v1.0.0](../../releases/tag/v1.0.0): June 28, 2024.**
 
 - Launch of the course.
 
