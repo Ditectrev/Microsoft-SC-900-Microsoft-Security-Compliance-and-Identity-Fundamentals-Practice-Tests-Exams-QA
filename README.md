@@ -4,9 +4,9 @@
 
 ## Udemy & shop.ditectrev.com
 
-❣️ Please support us by purchasing this course on Udemy in an interactive version with the [discounted link](https://www.udemy.com/user/social-ditectrev/). If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
+❣️ Please support us by purchasing this course on Udemy in an interactive version with the [discounted link](https://www.udemy.com/course/ms-security-compliance-and-identity-fundamentals-sc-900/?referralCode=38CEC527FAE1EC26ACBA). If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
 
-🛍️ Alternatively, you can buy the PDF with those questions on [shop.ditectrev.com](https://shop.ditectrev.com/).
+🛍️ Alternatively, you can buy the PDF with those questions on [shop.ditectrev.com](https://shop.ditectrev.com/product/microsoft-sc-900-security-compliance-and-identity-fundamentals-practice-tests-exams-questions-answers).
 
 ## ✨ This course is unlike any Microsoft SC-900 (Microsoft Security, Compliance, and Identity Fundamentals) course you will find online.
 
