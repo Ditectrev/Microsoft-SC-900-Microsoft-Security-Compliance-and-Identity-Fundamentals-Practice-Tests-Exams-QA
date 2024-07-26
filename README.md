@@ -43,6 +43,10 @@
 
 - Launch of the course.
 
+**[v1.0.0](../../releases/tag/v1.0.0): July 26, 2024.**
+
+- AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/ms-security-compliance-and-identity-fundamentals-sc-900/?referralCode=38CEC527FAE1EC26ACBA)).
+
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
 We are so thankful for every contribution, which makes sure we can deliver top-notch content. Whenever you find a missing resource, broken link in a [Table of Contents](#table-of-contents), the wrong answer, please submit an [issue](../../issues). Even better would be a [Pull Request (PR)](../../pulls).
