@@ -293,7 +293,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 204 | [Match the Microsoft 365 insider risk management workflow step to the appropriate task. [...] Send a reminder of corporate policies to users.](#match-the-microsoft-365-insider-risk-management-workflow-step-to-the-appropriate-task--send-a-reminder-of-corporate-policies-to-users)
 | 205 | [Users can apply sensitivity labels manually.](#users-can-apply-sensitivity-labels-manually)
 | 206 | [Multiple sensitivity labels can be applied to the same file.](#multiple-sensitivity-labels-can-be-applied-to-the-same-file)
-| 207 | [A sensitivity abel can apply a watermark to a Microsoft Word document.](#a-sensitivity-abel-can-apply-a-watermark-to-a-microsoft-word-document)
+| 207 | [A sensitivity label can apply a watermark to a Microsoft Word document.](#a-sensitivity-label-can-apply-a-watermark-to-a-microsoft-word-document)
 | 208 | [You can use Advanced Audit in Micrdsoft 365 to view billing details.](#you-can-use-advanced-audit-in-micrdsoft-365-to-view-billing-details)
 | 209 | [You can use Advanced Auditin Microsoft 365 to view the contents of an email message.](#you-can-use-advanced-auditin-microsoft-365-to-view-the-contents-of-an-email-message)
 | 210 | [You can use Advanced Auditin Microsoft 365 to view when a user sees the search bar in Outlook on the web to search for message in a mailbox.](#you-can-use-advanced-auditin-microsoft-365-to-view-when-a-user-sees-the-search-bar-in-outlook-on-the-web-to-search-for-message-in-a-mailbox)
@@ -1941,7 +1941,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A sensitivity abel can apply a watermark to a Microsoft Word document.
+### A sensitivity label can apply a watermark to a Microsoft Word document.
 
 - [x] Yes.
 - [ ] No.
