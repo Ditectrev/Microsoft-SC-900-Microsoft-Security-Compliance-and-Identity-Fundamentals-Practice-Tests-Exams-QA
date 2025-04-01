@@ -2,11 +2,30 @@
 
 ![Promotional image](images/promotional.png)
 
-## Udemy & shop.ditectrev.com
+There are many ways to support us; in exchange, you'll get this material in a proper format:
 
-❣️ Please support us by purchasing this course on Udemy in an interactive version with the [discounted link](https://www.udemy.com/course/ms-security-compliance-and-identity-fundamentals-sc-900/?referralCode=38CEC527FAE1EC26ACBA). If you're working for a company, you could most probably easily claim this expense during preparation for your exam. For us, it's to be, or not to be, in the game.
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats, with answers marked](https://shop.ditectrev.com/product/microsoft-sc-900-security-compliance-and-identity-fundamentals-practice-tests-exams-questions-answers),
+- ❤️ [shop.ditectrev.com, in EPUB or PDF formats, without answers marked](https://shop.ditectrev.com/product/microsoft-sc-900-security-compliance-and-identity-fundamentals-practice-tests-exams-questions-no-answers),
+- 📖 [Udemy is the only one to have explanations for questions](https://www.udemy.com/course/ms-security-compliance-and-identity-fundamentals-sc-900/?referralCode=38CEC527FAE1EC26ACBA),
+- 📚 [Google Play Books, in PDF format, with answers marked](https://play.google.com/store/books/details?id=tx8REQAAQBAJ),
+- 📚 [Google Play Books, in PDF format, without answers marked](https://play.google.com/store/books/details?id=tR8REQAAQBAJ),
+- 🛍️ [Etsy, in PDF format, with answers marked](https://ditectrev.etsy.com/listing/1753969815),
+- 🛍️ [Etsy, in PDF format, without answers marked](https://ditectrev.etsy.com/listing/1739775552),
+- 🛒 [eBay, in PDF format, with answers marked](https://www.ebay.com/itm/405138823708?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2380676&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- 🛒 [eBay, in PDF format, without answers marked](https://www.ebay.com/itm/405138823538?mkcid=16&mkevt=1&mkrid=711-127632-2357-0&ssspo=_ptbuk3gqdw&sssrc=2380676&ssuid=_ptbuk3gqdw&widget_ver=artemis&media=COPY),
+- 🔄 [Patreon subscription allows you to get access to all of the materials in EPUB and PDF formats. You can also buy separate items on Patreon, but the subscription technically allows us to include all updates for EPUB and PDF formats. Hence, you get EPUB and PDF updates when you subscribe to Patreon](https://patreon.com/Ditectrev?utm_medium=unknown&utm_source=join_link&utm_campaign=creatorshare_creator&utm_content=copyLink).
 
-🛍️ Alternatively, you can buy the PDF with those questions on [shop.ditectrev.com](https://shop.ditectrev.com/product/microsoft-sc-900-security-compliance-and-identity-fundamentals-practice-tests-exams-questions-answers).
+💰 If you work for a company, you could probably easily claim this expense while preparing for your exam. For us, it's about being in the game or not.
+
+⭐ Good ratings & reviews help us to survive. Please don't forget to leave a nice one when you purchase an item.
+
+## 👩‍💻 & 👨‍💻 Interactive Course(s)
+
+It's great to learn these questions as your exam preparation, and, yes, you should pass just based on that. However, we highly recommend more interactive learning if you want to become an expert. Currently, we're recommending those courses:
+
+- 📖 [Educative: text-based, video-free course, including set up out-of-the-box for you Cloud Labs to practice hands-on without the need to set up an environment (and payments). The link includes the highest available discount Educative offers](https://www.educative.io/courses/cyber-security-best-practices-for-developers?aff=VALz).
+
+Yes, we have a little commission from that link. Therefore, by using that link, you're supporting us.
 
 ## ✨ This course is unlike any Microsoft SC-900 (Microsoft Security, Compliance, and Identity Fundamentals) course you will find online.
 
@@ -46,6 +65,10 @@
 **[v1.0.0](../../releases/tag/v1.0.0): July 26, 2024.**
 
 - AI-generated explanations (only paid [Udemy](https://www.udemy.com/course/ms-security-compliance-and-identity-fundamentals-sc-900/?referralCode=38CEC527FAE1EC26ACBA)).
+
+**[v1.0.1](../../releases/tag/v1.0.1): April 1, 2025.**
+
+- Fix literally 1 missing letter in one question.
 
 ## 🙋‍♀️ & 🙋‍♂️ Contribution
 
