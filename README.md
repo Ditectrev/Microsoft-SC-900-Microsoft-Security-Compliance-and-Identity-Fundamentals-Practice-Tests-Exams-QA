@@ -1149,8 +1149,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [x] Network interface.
 - [ ] Azure App Service web app.
-- [x] Virtual network.
-- [ ] Virtual network subnet.
+- [ ] Virtual network.
+- [x] Virtual network subnet.
 - [ ] Resource group.
 **[⬆ Back to Top](#table-of-contents)**
 
