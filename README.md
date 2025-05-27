@@ -1073,8 +1073,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Security defaults require an Azure Active Directory (Azure AD) Premium license.
 
-- [x] Yes.
-- [ ] No.
+- [ ] Yes.
+- [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1147,12 +1147,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which two Azure resources can a network security group (NSG) be associated with?
 
-- [ ] Network interface.
+- [x] Network interface.
 - [ ] Azure App Service web app.
-- [x] Virtual network.
-- [ ] Virtual network subnet.
-- [x] Resource group.
-
+- [ ] Virtual network.
+- [x] Virtual network subnet.
+- [ ] Resource group.
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Azure AD Connect can be used to implement hybrid identity.
@@ -1663,9 +1662,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### In the Microsoft 365 Defender portal, an incident is a collection of correlated [...].
 
-- [ ] alerts.
+- [x] alerts.
 - [ ] events.
-- [x] vulnerabilities.
+- [ ] vulnerabilities.
 - [ ] Microsoft Secure Score improvement actions.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1759,8 +1758,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Azure Active Directory (Azure AD) is a cloud-based user identity and authentication service.
 
-- [ ] Yes.
-- [x] No.
+- [x] Yes.
+- [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1874,9 +1873,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Which compliance feature should you use to identify documents that are employee resumes?
 
-- [ ] Pre-trained classifiers.
+- [x] Pre-trained classifiers.
 - [ ] Content explorer.
-- [x] Activity explorer.
+- [ ] Activity explorer.
 - [ ] eDiscovery.
 
 **[⬆ Back to Top](#table-of-contents)**
