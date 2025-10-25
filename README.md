@@ -38,16 +38,16 @@ Yes, we have a little commission from that link. Therefore, by using that link, 
 1. Always happy to answer your questions on Udemy's Q&A's and outside :)
 2. Failed? Please submit a screenshot of your exam result and request a refund (via our upcoming platform, not possible on Udemy); we'll always accept it.
 3. Learn about topics, such as:
-   - Azure Active Directory (Azure AD);
    - Azure Bastion;
    - Azure Defender;
    - Azure Firewall;
    - Azure Policy;
-   - Azure Security Center;
    - Conditional Access Policies;
-   - Microsoft Cloud App Security;
    - Microsoft 365 Compliance Center;
+   - Microsoft Cloud App Security;
    - Microsoft Defender;
+   - Microsoft Defender for Cloud;
+   - Microsoft Entra ID;
    - Multi-Factor Authentication (MFA);
    - Privileged Identity Management (PIM);
    - **Much More!**
@@ -112,7 +112,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | --- | --------- |
 | 1   | [Conditional access policies always enforce the user of multi-factor authentication (MFA).](#conditional-access-policies-always-enforce-the-user-of-multi-factor-authentication-mfa)
 | 2   | [Conditional access policies can be used to block access to an application based on the location of the user.](#conditional-access-policies-can-be-used-to-block-access-to-an-application-based-on-the-location-of-the-user)
-| 3   | [Conditional access policies only affect users who have Azure Active Directory (Azure AD)-joined devices.](#conditional-access-policies-only-affect-users-who-have-azure-active-directory-azure-ad-joined-devices)
+| 3   | [Conditional access policies only affect users who have Microsoft Entra ID-joined devices.](#conditional-access-policies-only-affect-users-who-have-microsoft-entra-id-joined-devices)
 | 4   | [[...] is used to identify, hold, and export electronic information that might be used in an investigation.](#-is-used-to-identify-hold-and-export-electronic-information-that-might-be-used-in-an-investigation)
 | 5   | [Microsoft Defender for Endpoint can protect Android devices.](#microsoft-defender-for-endpoint-can-protect-android-devices)
 | 6   | [Microsoft Defender for Endpoint can protect Azure virtual machines that run Windows 10.](#microsoft-defender-for-endpoint-can-protect-azure-virtual-machines-that-run-windows-10)
@@ -124,7 +124,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 12  | [You can delete a resource group containing resources that have resources locks.](#you-can-delete-a-resource-group-containing-resources-that-have-resources-locks)
 | 13  | [Azure Defender can detect vulnerabilities and threats for Azure Storage.](#azure-defender-can-detect-vulnerabilities-and-threats-for-azure-storage)
 | 14  | [Cloud Security Posture Management (CSPM) is available for all Azure subscriptions.](#cloud-security-posture-management-cspm-is-available-for-all-azure-subscriptions)
-| 15  | [Azure Security Center can evaluate the security of workloads deployed to Azure or on-premises.](#azure-security-center-can-evaluate-the-security-of-workloads-deployed-to-azure-or-on-premises)
+| 15  | [Microsoft Defender for Cloud can evaluate the security of workloads deployed to Azure or on-premises.](#microsoft-defender-for-cloud-can-evaluate-the-security-of-workloads-deployed-to-azure-or-on-premises)
 | 16  | [In the shared responsibility model for an Azure deployment, what is Microsoft solely responsible for managing?](#in-the-shared-responsibility-model-for-an-azure-deployment-what-is-microsoft-solely-responsible-for-managing)
 | 17  | [Which Microsoft 365 feature can you use to restrict communication and the sharing of information between members of two departments at your organization?](#which-microsoft-365-feature-can-you-use-to-restrict-communication-and-the-sharing-of-information-between-members-of-two-departments-at-your-organization)
 | 18  | [You can use [...] in the Microsoft 365 security center to identify devices that are affected by an alert.](#you-can-use--in-the-microsoft-365-security-center-to-identify-devices-that-are-affected-by-an-alert)
@@ -137,13 +137,13 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 25  | [Verifying the authenticity of a digitally signed document requires the private key of the signer.](#verifying-the-authenticity-of-a-digitally-signed-document-requires-the-private-key-of-the-signer)
 | 26  | [In the Microsoft Cloud Adoption Framework for Azure, which two phases are addressed before the Ready phase?](#in-the-microsoft-cloud-adoption-framework-for-azure-which-two-phases-are-addressed-before-the-ready-phase)
 | 27  | [What can you use to provide a user with a two-hour window to complete an administrative task in Azure?](#what-can-you-use-to-provide-a-user-with-a-two-hour-window-to-complete-an-administrative-task-in-azure)
-| 28  | [Applying system updates increases an organization's secure score in Azure Security Center.](#applying-system-updates-increases-an-organizations-secure-score-in-azure-security-center)
-| 29  | [The secure score in Azure Security Center can evaluate resources across multiple Azure subscriptions.](#the-secure-score-in-azure-security-center-can-evaluate-resources-across-multiple-azure-subscriptions)
-| 30  | [Enabling multi-factor authentication (MFA) increases an organization's secure score in Azure Security Center.](#enabling-multi-factor-authentication-mfa-increases-an-organizations-secure-score-in-azure-security-center)
+| 28  | [Applying system updates increases an organization's secure score in Microsoft Defender for Cloud.](#applying-system-updates-increases-an-organizations-secure-score-in-microsoft-defender-for-cloud)
+| 29  | [The secure score in Microsoft Defender for Cloud can evaluate resources across multiple Azure subscriptions.](#the-secure-score-in-microsoft-defender-for-cloud-can-evaluate-resources-across-multiple-azure-subscriptions)
+| 30  | [Enabling multi-factor authentication (MFA) increases an organization's secure score in Microsoft Defender for Cloud.](#enabling-multi-factor-authentication-mfa-increases-an-organizations-secure-score-in-microsoft-defender-for-cloud)
 | 31  | [[...] enables collaboration with business partners from external organizations such as suppliers, partners, and vendors. External users appear as guest in the directory.](#-enables-collaboration-with-business-partners-from-external-organizations-such-as-suppliers-partners-and-vendors-external-users-appear-as-guest-in-the-directory)
 | 32  | [Which Microsoft portal provides information about how Microsoft manages privacy, compliance, and security?](#which-microsoft-portal-provides-information-about-how-microsoft-manages-privacy-compliance-and-security)
 | 33  | [What can you use to scan email attachments and forward the attachments to recipients only if the attachments are free from malware?](#what-can-you-use-to-scan-email-attachments-and-forward-the-attachments-to-recipients-only-if-the-attachments-are-free-from-malware)
-| 34  | [What is the purpose of Azure Active Directory (Azure AD) Password Protection?](#what-is-the-purpose-of-azure-active-directory-azure-ad-password-protection)
+| 34  | [What is the purpose of Microsoft Entra ID Password Protection?](#what-is-the-purpose-of-microsoft-entra-id-password-protection)
 | 35  | [Network security groups (NSGs) can deny inbound traffic from the internet.](#network-security-groups-nsgs-can-deny-inbound-traffic-from-the-internet)
 | 36  | [Network security groups (NSGs) can deny outbound traffic to the internet.](#network-security-groups-nsgs-can-deny-outbound-traffic-to-the-internet)
 | 37  | [Network security groups (NSGs) can filter traffic based on IP address, protocol, and port.](#network-security-groups-nsgs-can-filter-traffic-based-on-ip-address-protocol-and-port)
@@ -169,24 +169,24 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 57  | [[...] provides a central location for managing information protection, information governance, and data loss prevention (DLP) policies.](#-provides-a-central-location-for-managing-information-protection-information-governance-and-data-loss-prevention-dlp-policies)
 | 58  | [Which Microsoft 365 compliance feature can you use to encrypt content automatically based on specific conditions?](#which-microsoft-365-compliance-feature-can-you-use-to-encrypt-content-automatically-based-on-specific-conditions)
 | 59  | [In Azure Sentinel, you can automate common tasks by using [...].](#in-azure-sentinel-you-can-automate-common-tasks-by-using-)
-| 60  | [All Azure active Directory (Azure AD) license editions include the same features.](#all-azure-active-directory-azure-ad-license-editions-include-the-same-features)
-| 61  | [You can manage an Azure Active Directory (Azure AD) tenant by using the Azure portal.](#you-can-manage-an-azure-active-directory-azure-ad-tenant-by-using-the-azure-portal)
-| 62  | [You must deploy Azure virtual machines to host an Azure Active Directory (Azure AD) tenant.](#you-must-deploy-azure-virtual-machines-to-host-an-azure-active-directory-azure-ad-tenant)
-| 63  | [Azure Active Directory (Azure AD) is [...] used for authentication and authorization.](#azure-active-directory-azure-ad-is--used-for-authentication-and-authorization)
+| 60  | [All Microsoft Entra ID license editions include the same features.](#all-microsoft-entra-id-license-editions-include-the-same-features)
+| 61  | [You can manage an Microsoft Entra ID tenant by using the Azure portal.](#you-can-manage-an-microsoft-entra-id-tenant-by-using-the-azure-portal)
+| 62  | [You must deploy Azure virtual machines to host an Microsoft Entra ID tenant.](#you-must-deploy-azure-virtual-machines-to-host-an-microsoft-entra-id-tenant)
+| 63  | [Microsoft Entra ID is [...] used for authentication and authorization.](#microsoft-entra-id-is--used-for-authentication-and-authorization)
 | 64  | [[...] can be used to provide Microsoft Support Engineers with access to an organization's data stored in Microsoft Exchange Online, SharePoint Online, and OneDrive for Business.](#-can-be-used-to-provide-microsoft-support-engineers-with-access-to-an-organizations-data-stored-in-microsoft-exchange-online-sharepoint-online-and-onedrive-for-business)
 | 65  | [What do you use to provide real-time integration between Azure Sentinel and another security source?](#what-do-you-use-to-provide-real-time-integration-between-azure-sentinel-and-another-security-source)
-| 66  | [You can create custom roles in Azure Active Directory (Azure AD).](#you-can-create-custom-roles-in-azure-active-directory-azure-ad)
-| 67  | [Global administrator is a role in Azure Active Directory (Azure AD).](#global-administrator-is-a-role-in-azure-active-directory-azure-ad)
-| 68  | [An Azure Active Directory (Azure AD) user can be assigned only one role.](#an-azure-active-directory-azure-ad-user-can-be-assigned-only-one-role)
-| 69  | [Azure Active Directory (Azure AD) Identity Protection can add users to groups based on the users' risk level.](#azure-active-directory-azure-ad-identity-protection-can-add-users-to-groups-based-on-the-users-risk-level)
-| 70  | [Azure Active Directory (Azure AD) Identity Protection can detect whether user credentials were leaked to the public.](#azure-active-directory-azure-ad-identity-protection-can-detect-whether-user-credentials-were-leaked-to-the-public)
-| 71  | [Azure Active Directory (Azure AD) Identity Protection can be used to invoke Multi-Factor Authentication based on a user's risk level.](#azure-active-directory-azure-ad-identity-protection-can-be-used-to-invoke-multi-factor-authentication-based-on-a-users-risk-level)
+| 66  | [You can create custom roles in Microsoft Entra ID.](#you-can-create-custom-roles-in-microsoft-entra-id)
+| 67  | [Global administrator is a role in Microsoft Entra ID.](#global-administrator-is-a-role-in-microsoft-entra-id)
+| 68  | [An Microsoft Entra ID user can be assigned only one role.](#an-microsoft-entra-id-user-can-be-assigned-only-one-role)
+| 69  | [Microsoft Entra ID Identity Protection can add users to groups based on the users' risk level.](#microsoft-entra-id-identity-protection-can-add-users-to-groups-based-on-the-users-risk-level)
+| 70  | [Microsoft Entra ID Identity Protection can detect whether user credentials were leaked to the public.](#microsoft-entra-id-identity-protection-can-detect-whether-user-credentials-were-leaked-to-the-public)
+| 71  | [Microsoft Entra ID Identity Protection can be used to invoke Multi-Factor Authentication based on a user's risk level.](#microsoft-entra-id-identity-protection-can-be-used-to-invoke-multi-factor-authentication-based-on-a-users-risk-level)
 | 72  | [Which feature provides the extended detection and response (XDR) capability of Azure Sentinel?](#which-feature-provides-the-extended-detection-and-response-xdr-capability-of-azure-sentinel)
-| 73  | [Which Azure Active Directory (Azure AD) feature can you use to provide just-in-time (JIT) access to manage Azure resources?](#which-azure-active-directory-azure-ad-feature-can-you-use-to-provide-just-in-time-jit-access-to-manage-azure-resources)
+| 73  | [Which Microsoft Entra ID feature can you use to provide just-in-time (JIT) access to manage Azure resources?](#which-microsoft-entra-id-feature-can-you-use-to-provide-just-in-time-jit-access-to-manage-azure-resources)
 | 74  | [In software as a service (SaaS), applying service packs to applications is the responsibility of the organization.](#in-software-as-a-service-saas-applying-service-packs-to-applications-is-the-responsibility-of-the-organization)
 | 75  | [In infrastructure as a service (IaaS), managing the physical network is the responsibility of the cloud provider.](#in-infrastructure-as-a-service-iaas-managing-the-physical-network-is-the-responsibility-of-the-cloud-provider)
 | 76  | [In all Azure Cloud deployment types, managing the security of information and data is the responsibility of the organization.](#in-all-azure-cloud-deployment-types-managing-the-security-of-information-and-data-is-the-responsibility-of-the-organization)
-| 77  | [Applications registered in Azure Active Directory (Azure AD) are associated automatically to a [...].](#applications-registered-in-azure-active-directory-azure-ad-are-associated-automatically-to-a-)
+| 77  | [Applications registered in Microsoft Entra ID are associated automatically to a [...].](#applications-registered-in-microsoft-entra-id-are-associated-automatically-to-a-)
 | 78  | [[...] is a cloud-native security information and event management (SIEM) and security orchestration automated response (SOAR) solution used to provide a single solution for alert detection, threat visibility, proactive hunting, and threat response.](#-is-a-cloud-native-security-information-and-event-management-siem-and-security-orchestration-automated-response-soar-solution-used-to-provide-a-single-solution-for-alert-detection-threat-visibility-proactive-hunting-and-threat-response)
 | 79  | [[...] a file makes the data in the file readable and usable to viewers that have the appropriate key.](#-a-file-makes-the-data-in-the-file-readable-and-usable-to-viewers-that-have-the-appropriate-key)
 | 80  | [Sensitivity labels can be used to encrypt documents.](#sensitivity-labels-can-be-used-to-encrypt-documents)
@@ -203,23 +203,23 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 91  | [Conditional access policies can use the device state as a signal.](#conditional-access-policies-can-use-the-device-state-as-a-signal)
 | 92  | [Conditional access policies apply before first-factor authentication is complete.](#conditional-access-policies-apply-before-first-factor-authentication-is-complete)
 | 93  | [Conditional access policies can trigger multi-factor authentication (MFA) if a user attempts to access a specific application.](#conditional-access-policies-can-trigger-multi-factor-authentication-mfa-if-a-user-attempts-to-access-a-specific-application)
-| 94  | [Azure AD Identity Protection can add users to groups based on the users' risk level.](#azure-ad-identity-protection-can-add-users-to-groups-based-on-the-users-risk-level)
-| 95  | [Azure AD Identity Protection can detect whether user credentials were leaked to the public.](#azure-ad-identity-protection-can-detect-whether-user-credentials-were-leaked-to-the-public)
-| 96  | [Azure AD Identity Protection can be used to invoke Multi-Factor Authentication based on the users' risk level.](#azure-ad-identity-protection-can-be-used-to-invoke-multi-factor-authentication-based-on-the-users-risk-level)
-| 97  | [Security defaults require an Azure Active Directory (Azure AD) Premium license.](#security-defaults-require-an-azure-active-directory-azure-ad-premium-license)
-| 98  | [Security defaults can be enabled for a single Azure Active Directory (Azure AD) user.](#security-defaults-can-be-enabled-for-a-single-azure-active-directory-azure-ad-user)
+| 94  | [Microsoft Entra ID Protection can add users to groups based on the users' risk level.](#microsoft-entra-id-protection-can-add-users-to-groups-based-on-the-users-risk-level)
+| 95  | [Microsoft Entra ID Protection can detect whether user credentials were leaked to the public.](#microsoft-entra-id-protection-can-detect-whether-user-credentials-were-leaked-to-the-public)
+| 96  | [Microsoft Entra ID Protection can be used to invoke Multi-Factor Authentication based on the users' risk level.](#microsoft-entra-id-protection-can-be-used-to-invoke-multi-factor-authentication-based-on-the-users-risk-level)
+| 97  | [Security defaults require an Microsoft Entra ID Premium license.](#security-defaults-require-an-microsoft-entra-id-premium-license)
+| 98  | [Security defaults can be enabled for a single Microsoft Entra ID user.](#security-defaults-can-be-enabled-for-a-single-microsoft-entra-id-user)
 | 99  | [When Security defaults are enabled, all administrators must use multi-factor authentication (MFA).](#when-security-defaults-are-enabled-all-administrators-must-use-multi-factor-authentication-mfa)
 | 100 | [Control is a key privacy principle of Microsoft.](#control-is-a-key-privacy-principle-of-microsoft)
 | 101 | [Transparency is a key principle of Microsoft.](#transparency-is-a-key-principle-of-microsoft)
 | 102 | [Shared responsibility a key principle of Microsoft.](#shared-responsibility-a-key-principle-of-microsoft)
-| 103 | [What should you use to ensure that the members of an Azure Active Directory group use multi-factor authentication (MFA) when they sign in?](#what-should-you-use-to-ensure-that-the-members-of-an-azure-active-directory-group-use-multi-factor-authentication-mfa-when-they-sign-in)
+| 103 | [What should you use to ensure that the members of a Microsoft Entra ID group use multi-factor authentication (MFA) when they sign in?](#what-should-you-use-to-ensure-that-the-members-of-a-microsoft-entra-id-group-use-multi-factor-authentication-mfa-when-they-sign-in)
 | 104 | [Microsoft Defender for Cloud can detect vulnerabilities and threats for Azure Storage.](#microsoft-defender-for-cloud-can-detect-vulnerabilities-and-threats-for-azure-storage)
-| 105 | [Microsoft Defender for Cloud can evaluate the security of workloads deployed to Azure or on-premises.](#microsoft-defender-for-cloud-can-evaluate-the-security-of-workloads-deployed-to-azure-or-on-premises)
+| 105 | [...](#...)
 | 106 | [[...] provides benchmark recommendations and guidance for protecting Azure services.](#-provides-benchmark-recommendations-and-guidance-for-protecting-azure-services)
 | 107 | [Which two Azure resources can a network security group (NSG) be associated with?](#which-two-azure-resources-can-a-network-security-group-nsg-be-associated-with)
-| 108 | [Azure AD Connect can be used to implement hybrid identity.](#azure-ad-connect-can-be-used-to-implement-hybrid-identity)
+| 108 | [Microsoft Entra Connect can be used to implement hybrid identity.](#microsoft-entra-connect-can-be-used-to-implement-hybrid-identity)
 | 109 | [Hybrid identity requires the implementation of two Microsoft 365 tenants.](#hybrid-identity-requires-the-implementation-of-two-microsoft-365-tenants)
-| 110 | [Hybrid identity refers to the synchronization of Active Directory Domain Services (AD DS) and Azure Active Directory (Azure AD).](#hybrid-identity-refers-to-the-synchronization-of-active-directory-domain-services-ad-ds-and-azure-active-directory-azure-ad)
+| 110 | [Hybrid identity refers to the synchronization of Active Directory Domain Services (AD DS) and Microsoft Entra ID.](#hybrid-identity-refers-to-the-synchronization-of-active-directory-domain-services-ad-ds-and-microsoft-entra-id)
 | 111 | [Match the types of compliance score actions to the appropriate tasks. [...] Use encryption to protect data at rest.](#match-the-types-of-compliance-score-actions-to-the-appropriate-tasks--use-encryption-to-protect-data-at-rest)
 | 112 | [Match the types of compliance score actions to the appropriate tasks. [...] Actively monitor systems to identify irregularities that might represent risks.](#match-the-types-of-compliance-score-actions-to-the-appropriate-tasks--actively-monitor-systems-to-identify-irregularities-that-might-represent-risks)
 | 113 | [You can use the insider risk management solution to detect phishing scams.](#you-can-use-the-insider-risk-management-solution-to-detect-phishing-scams)
@@ -228,9 +228,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 116 | [What can you protect by using the information protection solution in the Microsoft 365 Compliance Center?](#what-can-you-protect-by-using-the-information-protection-solution-in-the-microsoft-365-compliance-center)
 | 117 | [Microsoft Sentinel [...] use Azure Logic Apps to automate and orchestrate responses to alerts.](#microsoft-sentinel--use-azure-logic-apps-to-automate-and-orchestrate-responses-to-alerts)
 | 118 | [What are three uses of Microsoft Cloud App Security?](#what-are-three-uses-of-microsoft-cloud-app-security)
-| 119 | [Azure Active Directory (Azure AD) is deployed to an on premises environment.](#azure-active-directory-azure-ad-is-deployed-to-an-on-premises-environment)
-| 120 | [Azure Active Directory (Azure AD) is provided as part of a Microsoft 365 subscription.](#azure-active-directory-azure-ad-is-provided-as-part-of-a-microsoft-365-subscription)
-| 121 | [Azure Active Directory (Azure AD) is an identity and access management service.](#azure-active-directory-azure-ad-is-an-identity-and-access-management-service)
+| 119 | [Microsoft Entra ID is deployed to an on premises environment.](#microsoft-entra-id-is-deployed-to-an-on-premises-environment)
+| 120 | [Microsoft Entra ID is provided as part of a Microsoft 365 subscription.](#microsoft-entra-id-is-provided-as-part-of-a-microsoft-365-subscription)
+| 121 | [Microsoft Entra ID is an identity and access management service.](#microsoft-entra-id-is-an-identity-and-access-management-service)
 | 122 | [Which service should you use to view your Azure secure score?](#which-service-should-you-use-to-view-your-azure-secure-score)
 | 123 | [Which two types of resources can be protected by using Azure Firewall?](#which-two-types-of-resources-can-be-protected-by-using-azure-firewall)
 | 124 | [What can you use to provide threat detection for Azure SQL Managed Instance?](#what-can-you-use-to-provide-threat-detection-for-azure-sql-managed-instance)
@@ -242,10 +242,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 130 | [From the Microsoft 365 security center, you can view how your Microsoft Secure Score compares to the score of organizations like yours.](#from-the-microsoft-365-security-center-you-can-view-how-your-microsoft-secure-score-compares-to-the-score-of-organizations-like-yours)
 | 131 | [Microsoft Secure Score in the Microsoft 365 security center gives you points if you address the improvement action by using a third-party application or software.](#microsoft-secure-score-in-the-microsoft-365-security-center-gives-you-points-if-you-address-the-improvement-action-by-using-a-third-party-application-or-software)
 | 132 | [Which Microsoft 365 feature can you use to restrict users from sending email messages that contain lists of customers and their associated credit card numbers?](#which-microsoft-365-feature-can-you-use-to-restrict-users-from-sending-email-messages-that-contain-lists-of-customers-and-their-associated-credit-card-numbers)
-| 133 | [Which Azure Active Directory (Azure AD) feature can you use to evaluate group membership and automatically remove users that no longer require membership in a group?](#which-azure-active-directory-azure-ad-feature-can-you-use-to-evaluate-group-membership-and-automatically-remove-users-that-no-longer-require-membership-in-a-group)
+| 133 | [Which Microsoft Entra ID feature can you use to evaluate group membership and automatically remove users that no longer require membership in a group?](#which-microsoft-entra-id-feature-can-you-use-to-evaluate-group-membership-and-automatically-remove-users-that-no-longer-require-membership-in-a-group)
 | 134 | [Which Microsoft portal provides information about how Microsoft cloud services comply with regulatory standard, such as International Organization for Standardization (ISO)?](#which-microsoft-portal-provides-information-about-how-microsoft-cloud-services-comply-with-regulatory-standard-such-as-international-organization-for-standardization-iso)
 | 135 | [What can you use to provision Azure resources across multiple subscriptions in a consistent manner?](#what-can-you-use-to-provision-azure-resources-across-multiple-subscriptions-in-a-consistent-manner)
-| 136 | [When you enable security defaults in Azure Active Directory (Azure AD), [...] will be enabled for all Azure AD users.](#when-you-enable-security-defaults-in-azure-active-directory-azure-ad--will-be-enabled-for-all-azure-ad-users)
+| 136 | [When you enable security defaults in Microsoft Entra ID, [...] will be enabled for all Microsoft Entra ID users.](#when-you-enable-security-defaults-in-microsoft-entra-id--will-be-enabled-for-all-microsoft-entra-id-users)
 | 137 | [[...] provides best practices from Microsoft employees, partners, and customers, including tools and guidance to assist in an Azure deployment.](#-provides-best-practices-from-microsoft-employees-partners-and-customers-including-tools-and-guidance-to-assist-in-an-azure-deployment)
 | 138 | [You can manage Microsoft Intune by using the](#you-can-manage-microsoft-intune-by-using-the)
 | 139 | [Verify explicitly is one of the guiding principles of Zero Trust.](#verify-explicitly-is-one-of-the-guiding-principles-of-zero-trust)
@@ -255,17 +255,17 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 143 | [Which three statements accurately describe the guiding principles of Zero Trust?](#which-three-statements-accurately-describe-the-guiding-principles-of-zero-trust)
 | 144 | [A higher Microsoft Secure Score means a lower identified risk level in the Microsoft 365 tenant.](#a-higher-microsoft-secure-score-means-a-lower-identified-risk-level-in-the-microsoft-365-tenant)
 | 145 | [Microsoft Secure Score measures progress in completing actions based on controls that include key regulations and standards for data protection and governance.](#microsoft-secure-score-measures-progress-in-completing-actions-based-on-controls-that-include-key-regulations-and-standards-for-data-protection-and-governance)
-| 146 | [In a hybrid identity model, what can you use to sync identities between Active Directory Domain Services (AD DS) and Azure Active Directory (Azure AD)?](#in-a-hybrid-identity-model-what-can-you-use-to-sync-identities-between-active-directory-domain-services-ad-ds-and-azure-active-directory-azure-ad)
+| 146 | [In a hybrid identity model, what can you use to sync identities between Active Directory Domain Services (AD DS) and Microsoft Entra ID?](#in-a-hybrid-identity-model-what-can-you-use-to-sync-identities-between-active-directory-domain-services-ad-ds-and-microsoft-entra-id)
 | 147 | [With Windows Hello for Business, a user's biometric data used for authentication](#with-windows-hello-for-business-a-users-biometric-data-used-for-authentication)
 | 148 | [Microsoft Defender for Identity can identify advanced threats from [...] signals.](#microsoft-defender-for-identity-can-identify-advanced-threats-from--signals)
 | 149 | [Which three authentication methods does Windows Hello for Business support?](#which-three-authentication-methods-does-windows-hello-for-business-support)
 | 150 | [You have an Azure subscription. You need to implement approval-based, time-bound role activation. What should you use?](#you-have-an-azure-subscription-you-need-to-implement-approval-based-time-bound-role-activation-what-should-you-use)
 | 151 | [Global administrators are exempt from conditional access policies.](#global-administrators-are-exempt-from-conditional-access-policies)
-| 152 | [A conditional access policy can add users to Azure Active Directory (Azure AD) roles.](#a-conditional-access-policy-can-add-users-to-azure-active-directory-azure-ad-roles)
+| 152 | [A conditional access policy can add users to Microsoft Entra ID roles.](#a-conditional-access-policy-can-add-users-to-microsoft-entra-id-roles)
 | 153 | [Conditional access policies can force the use of multi-factor authentication (MFA) to access cloud apps.](#conditional-access-policies-can-force-the-use-of-multi-factor-authentication-mfa-to-access-cloud-apps)
-| 154 | [When security defaults are enabled for an Azure Active Directory (Azure AD) tenant, which two requirements are enforced?](#when-security-defaults-are-enabled-for-an-azure-active-directory-azure-ad-tenant-which-two-requirements-are-enforced)
-| 155 | [Which type of identity is created when you register an application with Active Directory (Azure AD)?](#which-type-of-identity-is-created-when-you-register-an-application-with-active-directory-azure-ad)
-| 156 | [Which three tasks can be performed by using Azure Active Directory (Azure AD) Identity Protection?](#which-three-tasks-can-be-performed-by-using-azure-active-directory-azure-ad-identity-protection)
+| 154 | [When security defaults are enabled for an Microsoft Entra ID tenant, which two requirements are enforced?](#when-security-defaults-are-enabled-for-an-microsoft-entra-id-tenant-which-two-requirements-are-enforced)
+| 155 | [Which type of identity is created when you register an application with Microsoft Entra ID?](#which-type-of-identity-is-created-when-you-register-an-application-with-microsoft-entra-id)
+| 156 | [Which three tasks can be performed by using Microsoft Entra ID Identity Protection?](#which-three-tasks-can-be-performed-by-using-microsoft-entra-id-identity-protection)
 | 157 | [When using multi-factor authentication (MFA), a password is considered something you [...].](#when-using-multi-factor-authentication-mfa-a-password-is-considered-something-you-)
 | 158 | [Windows Hello for Business can use the Microsoft Authenticator app as an authentication method.](#windows-hello-for-business-can-use-the-microsoft-authenticator-app-as-an-authentication-method)
 | 159 | [Windows Hello for Business can use a PIN code as an authentication method.](#windows-hello-for-business-can-use-a-pin-code-as-an-authentication-method)
@@ -275,7 +275,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 163 | [You can create one Azure Bastion per virtual network.](#you-can-create-one-azure-bastion-per-virtual-network)
 | 164 | [Azure Bastion provides secure user connections by using RDP.](#azure-bastion-provides-secure-user-connections-by-using-rdp)
 | 165 | [In Microsoft Sentinel, you can automate common tasks by using [...]](#in-microsoft-sentinel-you-can-automate-common-tasks-by-using-)
-| 166 | [Which Azure Active Directory (Azure AD) feature can you use to restrict Microsoft Intune-managed devices from accessing corporate resources?](#which-azure-active-directory-azure-ad-feature-can-you-use-to-restrict-microsoft-intune-managed-devices-from-accessing-corporate-resources)
+| 166 | [Which Microsoft Entra ID feature can you use to restrict Microsoft Intune-managed devices from accessing corporate resources?](#which-microsoft-entra-id-feature-can-you-use-to-restrict-microsoft-intune-managed-devices-from-accessing-corporate-resources)
 | 167 | [What should you use in the Microsoft 365 Defender portal to view security trends and track the protection status of identities?](#what-should-you-use-in-the-microsoft-365-defender-portal-to-view-security-trends-and-track-the-protection-status-of-identities)
 | 168 | [You have a Microsoft 365 E3 subscription. You plan to audit user activity by using the unified audit log and Basic Audit. For how long will the audit records be retained?](#you-have-a-microsoft-365-e3-subscription-you-plan-to-audit-user-activity-by-using-the-unified-audit-log-and-basic-audit-for-how-long-will-the-audit-records-be-retained)
 | 169 | [In the Microsoft 365 Defender portal, an incident is a collection of correlated [...].](#in-the-microsoft-365-defender-portal-an-incident-is-a-collection-of-correlated-)
@@ -289,13 +289,13 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 177 | [What can you use to deploy Azure resources across multiple subscriptions in a consistent manner?](#what-can-you-use-to-deploy-azure-resources-across-multiple-subscriptions-in-a-consistent-manner)
 | 178 | [Azure Defender provides security alerts and advanced threat protection for virtual machines, SQL databases, containers, web applications, your network, your storage, and more](#azure-defender-provides-security-alerts-and-advanced-threat-protection-for-virtual-machines-sql-databases-containers-web-applications-your-network-your-storage-and-more)
 | 179 | [Cloud security posture management (CSPM) is available for free to all Azure users.](#cloud-security-posture-management-cspm-is-available-for-free-to-all-azure-users)
-| 180 | [Azure Security Center is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud – whether they’re in Azure or not – as well as on premises.](#azure-security-center-is-a-unified-infrastructure-security-management-system-that-strengthens-the-security-posture-of-your-data-centers-and-provides-advanced-threat-protection-across-your-hybrid-workloads-in-the-cloud--whether-theyre-in-azure-or-not--as-well-as-on-premises)
-| 181 | [Azure Active Directory (Azure AD) is a cloud-based user identity and authentication service.](#azure-active-directory-azure-ad-is-a-cloud-based-user-identity-and-authentication-service)
-| 182 | [Microsoft 365 uses Azure Active Directory (Azure AD). Azure Active Directory (Azure AD) is included with your Microsoft 365 subscription.](#microsoft-365-uses-azure-active-directory-azure-ad-azure-active-directory-azure-ad-is-included-with-your-microsoft-365-subscription)
+| 180 | [Microsoft Defender for Cloud is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud – whether they’re in Azure or not – as well as on premises.](#microsoft-defender-for-cloud-is-a-unified-infrastructure-security-management-system-that-strengthens-the-security-posture-of-your-data-centers-and-provides-advanced-threat-protection-across-your-hybrid-workloads-in-the-cloud--whether-theyre-in-azure-or-not--as-well-as-on-premises)
+| 181 | [Microsoft Entra ID is a cloud-based user identity and authentication service.](#microsoft-entra-id-is-a-cloud-based-user-identity-and-authentication-service)
+| 182 | [Microsoft 365 uses Microsoft Entra ID. Microsoft Entra ID is included with your Microsoft 365 subscription.](#microsoft-365-uses-microsoft-entra-id-microsoft-entra-id-is-included-with-your-microsoft-365-subscription)
 | 183 | [Azure Bastion provides a secure connection to an Azure virtual machine by using the Azure portal.](#azure-bastion-provides-a-secure-connection-to-an-azure-virtual-machine-by-using-the-azure-portal)
-| 184 | [Applying system updates increases an organization's secure score in Microsoft Defender for Cloud.](#applying-system-updates-increases-an-organizations-secure-score-in-microsoft-defender-for-cloud)
-| 185 | [The secure score in Microsoft Defender for Cloud can evaluate resources across multiple Azure subscriptions.](#the-secure-score-in-microsoft-defender-for-cloud-can-evaluate-resources-across-multiple-azure-subscriptions)
-| 186 | [Enabling multi-factor authentication (MFA) increases an organization's secure score in Microsoft Defender for Cloud.](#enabling-multi-factor-authentication-mfa-increases-an-organizations-secure-score-in-microsoft-defender-for-cloud)
+| 184 | [...](#...)
+| 185 | [...](#...)
+| 186 | [...](#...)
 | 187 | [Which score measures an organization's progress in completing actions that help reduce risks associated to data protection and regulatory standards?](#which-score-measures-an-organizations-progress-in-completing-actions-that-help-reduce-risks-associated-to-data-protection-and-regulatory-standards)
 | 188 | [You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. Encrypt data at rest.](#you-are-evaluating-the-compliance-score-in-compliance-manager-match-the-compliance-score-action-subcategories-to-the-appropriate-actions--encrypt-data-at-rest)
 | 189 | [You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. Perform a system access audit.](#you-are-evaluating-the-compliance-score-in-compliance-manager-match-the-compliance-score-action-subcategories-to-the-appropriate-actions--perform-a-system-access-audit)
@@ -336,7 +336,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Conditional access policies only affect users who have Azure Active Directory (Azure AD)-joined devices.
+### Conditional access policies only affect users who have Microsoft Entra ID-joined devices.
 
 - [ ] Yes.
 - [x] No.
@@ -386,7 +386,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Microsoft Secure Score.
 - [ ] Productivity Score.
-- [ ] Secure score in Azure Security Center.
+- [ ] Secure score in Microsoft Defender for Cloud.
 - [x] Compliance score.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -426,7 +426,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Security Center can evaluate the security of workloads deployed to Azure or on-premises.
+### Microsoft Defender for Cloud can evaluate the security of workloads deployed to Azure or on-premises.
 
 - [x] Yes.
 - [ ] No.
@@ -529,28 +529,28 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What can you use to provide a user with a two-hour window to complete an administrative task in Azure?
 
-- [x] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
+- [x] Microsoft Entra ID Privileged Identity Management (PIM).
 - [ ] Azure Multi-Factor Authentication (MFA).
-- [ ] Azure Active Directory (Azure AD) Identity Protection.
+- [ ] Microsoft Entra ID Identity Protection.
 - [ ] conditional access policies.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Applying system updates increases an organization's secure score in Azure Security Center.
+### Applying system updates increases an organization's secure score in Microsoft Defender for Cloud.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### The secure score in Azure Security Center can evaluate resources across multiple Azure subscriptions.
+### The secure score in Microsoft Defender for Cloud can evaluate resources across multiple Azure subscriptions.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Enabling multi-factor authentication (MFA) increases an organization's secure score in Azure Security Center.
+### Enabling multi-factor authentication (MFA) increases an organization's secure score in Microsoft Defender for Cloud.
 
 - [x] Yes.
 - [ ] No.
@@ -561,8 +561,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Active Directory Domain Services (AD DS).
 - [ ] Active Directory forest trust.
-- [x] Azure Active Directory (Azure AD) business-to-business (B2B).
-- [ ] Azure Active Directory business-to-consumer B2C (Azure AD B2C).
+- [x] Microsoft Entra ID business-to-business (B2B).
+- [ ] Microsoft Entra ID business-to-consumer (B2C).
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -584,7 +584,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### What is the purpose of Azure Active Directory (Azure AD) Password Protection?
+### What is the purpose of Microsoft Entra ID Password Protection?
 
 - [ ] To control how often users must change their passwords.
 - [ ] To identify devices to which users can sign in without using multi-factor authentication (MFA).
@@ -625,8 +625,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### Azure DDoS Protection Standard can be used to protect [...].
 
-- [ ] Azure Active Directory (Azure AD) applications.
-- [ ] Azure Active Directory (Azure AD) users.
+- [ ] Microsoft Entra ID applications.
+- [ ] Microsoft Entra ID users.
 - [ ] resource groups.
 - [x] virtual networks.
 
@@ -789,28 +789,28 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### All Azure active Directory (Azure AD) license editions include the same features.
+### All Microsoft Entra ID license editions include the same features.
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You can manage an Azure Active Directory (Azure AD) tenant by using the Azure portal.
+### You can manage an Microsoft Entra ID tenant by using the Azure portal.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You must deploy Azure virtual machines to host an Azure Active Directory (Azure AD) tenant.
+### You must deploy Azure virtual machines to host an Microsoft Entra ID tenant.
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) is [...] used for authentication and authorization.
+### Microsoft Entra ID is [...] used for authentication and authorization.
 
 - [ ] an extended detection and response (XDR) system.
 - [x] an identity provider.
@@ -830,49 +830,49 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### What do you use to provide real-time integration between Azure Sentinel and another security source?
 
-- [ ] Azure AD Connect.
+- [ ] Microsoft Entra Connect.
 - [ ] Log Analytics workspace.
 - [ ] Azure Information Protection.
 - [x] Data connector.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### You can create custom roles in Azure Active Directory (Azure AD).
+### You can create custom roles in Microsoft Entra ID.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Global administrator is a role in Azure Active Directory (Azure AD).
+### Global administrator is a role in Microsoft Entra ID.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### An Azure Active Directory (Azure AD) user can be assigned only one role.
+### An Microsoft Entra ID user can be assigned only one role.
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) Identity Protection can add users to groups based on the users' risk level.
+### Microsoft Entra ID Identity Protection can add users to groups based on the users' risk level.
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) Identity Protection can detect whether user credentials were leaked to the public.
+### Microsoft Entra ID Identity Protection can detect whether user credentials were leaked to the public.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) Identity Protection can be used to invoke Multi-Factor Authentication based on a user's risk level.
+### Microsoft Entra ID Identity Protection can be used to invoke Multi-Factor Authentication based on a user's risk level.
 
 - [x] Yes.
 - [ ] No.
@@ -888,11 +888,11 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which Azure Active Directory (Azure AD) feature can you use to provide just-in-time (JIT) access to manage Azure resources?
+### Which Microsoft Entra ID feature can you use to provide just-in-time (JIT) access to manage Azure resources?
 
 - [ ] Conditional access policies.
-- [ ] Azure AD Identity Protection.
-- [x] Azure AD Privileged Identity Management (PIM).
+- [ ] Microsoft Entra ID Protection.
+- [x] Microsoft Entra Privileged Identity Management (PIM).
 - [ ] Authentication method policies.
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -918,7 +918,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Applications registered in Azure Active Directory (Azure AD) are associated automatically to a [...].
+### Applications registered in Microsoft Entra ID are associated automatically to a [...].
 
 - [ ] guest account.
 - [ ] managed identity.
@@ -1050,35 +1050,35 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure AD Identity Protection can add users to groups based on the users' risk level.
+### Microsoft Entra ID Protection can add users to groups based on the users' risk level.
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure AD Identity Protection can detect whether user credentials were leaked to the public.
+### Microsoft Entra ID Protection can detect whether user credentials were leaked to the public.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure AD Identity Protection can be used to invoke Multi-Factor Authentication based on the users' risk level.
+### Microsoft Entra ID Protection can be used to invoke Multi-Factor Authentication based on the users' risk level.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Security defaults require an Azure Active Directory (Azure AD) Premium license.
+### Security defaults require an Microsoft Entra ID Premium license.
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Security defaults can be enabled for a single Azure Active Directory (Azure AD) user.
+### Security defaults can be enabled for a single Microsoft Entra ID user.
 
 - [ ] Yes.
 - [x] No.
@@ -1113,12 +1113,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### What should you use to ensure that the members of an Azure Active Directory group use multi-factor authentication (MFA) when they sign in?
+### What should you use to ensure that the members of a Microsoft Entra ID group use multi-factor authentication (MFA) when they sign in?
 
-- [ ] Azure Active Directory (Azure AD) Identity Protection.
+- [ ] Microsoft Entra ID Identity Protection.
 - [x] A conditional access policy.
 - [ ] Azure role-based access control (Azure RBAC).
-- [ ] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
+- [ ] Microsoft Entra ID Privileged Identity Management (PIM).
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1129,7 +1129,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Microsoft Defender for Cloud can evaluate the security of workloads deployed to Azure or on-premises.
+### ...
 
 - [x] Yes.
 - [ ] No.
@@ -1154,7 +1154,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Resource group.
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure AD Connect can be used to implement hybrid identity.
+### Microsoft Entra Connect can be used to implement hybrid identity.
 
 - [x] Yes.
 - [ ] No.
@@ -1168,7 +1168,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Hybrid identity refers to the synchronization of Active Directory Domain Services (AD DS) and Azure Active Directory (Azure AD).
+### Hybrid identity refers to the synchronization of Active Directory Domain Services (AD DS) and Microsoft Entra ID.
 
 - [x] Yes.
 - [ ] No.
@@ -1242,21 +1242,21 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) is deployed to an on premises environment.
+### Microsoft Entra ID is deployed to an on premises environment.
 
 - [ ] Yes.
 - [x] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) is provided as part of a Microsoft 365 subscription.
+### Microsoft Entra ID is provided as part of a Microsoft 365 subscription.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) is an identity and access management service.
+### Microsoft Entra ID is an identity and access management service.
 
 - [x] Yes.
 - [ ] No.
@@ -1268,7 +1268,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Alerts.
 - [ ] Application Insights.
 - [ ] Policy.
-- [ ] Azure AD Connect Health.
+- [ ] Microsoft Entra Connect Health.
 - [x] Security Center (Microsoft Defender for Cloud).
 - [x] Security Center.
 - [ ] Advisor.
@@ -1279,7 +1279,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### Which two types of resources can be protected by using Azure Firewall?
 
 - [x] Azure virtual machines.
-- [ ] Azure Active Directory (Azure AD) users.
+- [ ] Microsoft Entra ID users.
 - [ ] Microsoft Exchange Online inboxes.
 - [x] Azure virtual networks.
 - [ ] Microsoft SharePoint Online sites.
@@ -1298,7 +1298,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### [...] can use conditional access policies to control sessions in real time.
 
-- [ ] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
+- [ ] Microsoft Entra ID Privileged Identity Management (PIM).
 - [ ] Microsoft Defender for Cloud.
 - [ ] Microsoft Sentinel.
 - [x] Microsoft Defender for Cloud Apps.
@@ -1361,12 +1361,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which Azure Active Directory (Azure AD) feature can you use to evaluate group membership and automatically remove users that no longer require membership in a group?
+### Which Microsoft Entra ID feature can you use to evaluate group membership and automatically remove users that no longer require membership in a group?
 
 - [x] Access reviews.
 - [ ] Managed identities.
 - [ ] Conditional access policies.
-- [ ] Azure AD Identity Protection.
+- [ ] Microsoft Entra ID Protection.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1375,7 +1375,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 - [ ] Microsoft Endpoint Manager admin center.
 - [ ] Azure Cost Management + Billing.
 - [x] Microsoft Service Trust Portal.
-- [ ] Azure Active Directory admin center.
+- [ ] Microsoft Entra ID admin center.
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1388,10 +1388,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### When you enable security defaults in Azure Active Directory (Azure AD), [...] will be enabled for all Azure AD users.
+### When you enable security defaults in Microsoft Entra ID, [...] will be enabled for all Microsoft Entra ID users.
 
-- [ ] Azure AD Identity Protection.
-- [ ] Azure AD Privileged Identity Management (PIM).
+- [ ] Microsoft Entra ID Protection.
+- [ ] Microsoft Entra Privileged Identity Management (PIM).
 - [x] Multi-factor authentication (MFA).
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1407,7 +1407,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### You can manage Microsoft Intune by using the
 
-- [ ] Azure Active Directory admin center.
+- [ ] Microsoft Entra ID admin center.
 - [ ] Microsoft 365 Compliance Center.
 - [ ] Microsoft 365 Defender portal.
 - [x] Microsoft Endpoint Manager admin center.
@@ -1468,12 +1468,12 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### In a hybrid identity model, what can you use to sync identities between Active Directory Domain Services (AD DS) and Azure Active Directory (Azure AD)?
+### In a hybrid identity model, what can you use to sync identities between Active Directory Domain Services (AD DS) and Microsoft Entra ID?
 
 - [ ] Active Directory Federation Services (AD FS).
 - [ ] Microsoft Sentinel.
-- [x] Azure AD Connect.
-- [ ] Azure AD Privileged Identity Management (PIM).
+- [x] Microsoft Entra Connect.
+- [ ] Microsoft Entra Privileged Identity Management (PIM).
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1481,15 +1481,15 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] is stored on an external device.
 - [x] is stored on a local device only.
-- [ ] is stored in Azure Active Directory (Azure AD).
+- [ ] is stored in Microsoft Entra ID.
 - [ ] is replicated to all the devices designated by the user.
 
 **[⬆ Back to Top](#table-of-contents)**
 
 ### Microsoft Defender for Identity can identify advanced threats from [...] signals.
 
-- [ ] Azure Active Directory (Azure AD).
-- [ ] Azure AD Connect.
+- [ ] Microsoft Entra ID.
+- [ ] Microsoft Entra Connect.
 - [x] on-premises Active Directory Domain Services (AD DS).
 
 **[⬆ Back to Top](#table-of-contents)**
@@ -1507,9 +1507,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 ### You have an Azure subscription. You need to implement approval-based, time-bound role activation. What should you use?
 
 - [ ] Windows Hello for Business.
-- [ ] Azure Active Directory (Azure AD) Identity Protection.
-- [ ] Access reviews in Azure Active Directory (Azure AD).
-- [x] Azure Active Directory (Azure AD) Privileged Identity Management (PIM).
+- [ ] Microsoft Entra ID Identity Protection.
+- [ ] Access reviews in Microsoft Entra ID.
+- [x] Microsoft Entra ID Privileged Identity Management (PIM).
 
 **[⬆ Back to Top](#table-of-contents)**
 
@@ -1520,7 +1520,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### A conditional access policy can add users to Azure Active Directory (Azure AD) roles.
+### A conditional access policy can add users to Microsoft Entra ID roles.
 
 - [ ] Yes.
 - [x] No.
@@ -1534,7 +1534,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### When security defaults are enabled for an Azure Active Directory (Azure AD) tenant, which two requirements are enforced?
+### When security defaults are enabled for an Microsoft Entra ID tenant, which two requirements are enforced?
 
 - [ ] All users must authenticate from a registered device.
 - [x] Administrators must always use Azure Multi-Factor Authentication (MFA).
@@ -1544,7 +1544,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which type of identity is created when you register an application with Active Directory (Azure AD)?
+### Which type of identity is created when you register an application with Microsoft Entra ID?
 
 - [ ] User account.
 - [ ] User-assigned managed identity.
@@ -1553,7 +1553,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which three tasks can be performed by using Azure Active Directory (Azure AD) Identity Protection?
+### Which three tasks can be performed by using Microsoft Entra ID Identity Protection?
 
 - [ ] Configure external access for partner organizations.
 - [x] Export risk detection to third-party utilities.
@@ -1595,7 +1595,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 ### An Azure resource can use a system-assigned [...] to access Azure services.
 
-- [ ] Azure Active Directory (Azure AD) joined device.
+- [ ] Microsoft Entra ID joined device.
 - [x] managed identity.
 - [ ] service principal.
 - [ ] user identity.
@@ -1625,7 +1625,8 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### In Microsoft Sentinel, you can automate common tasks by using [...]
+### In Microsoft Sentinel, you can automate common tasks by using [...].
+
 - [ ] deep investigation tools.
 - [ ] hunting search-and-query tools.
 - [x] playbooks.
@@ -1633,10 +1634,10 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Which Azure Active Directory (Azure AD) feature can you use to restrict Microsoft Intune-managed devices from accessing corporate resources?
+### Which Microsoft Entra ID feature can you use to restrict Microsoft Intune-managed devices from accessing corporate resources?
 
 - [ ] Network security groups (NSGs).
-- [ ] Azure AD Privileged Identity Management (PIM).
+- [ ] Microsoft Entra Privileged Identity Management (PIM).
 - [x] Conditional access policies.
 - [ ] Resource locks.
 
@@ -1749,21 +1750,21 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Security Center is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud – whether they’re in Azure or not – as well as on premises.
+### Microsoft Defender for Cloud is a unified infrastructure security management system that strengthens the security posture of your data centers, and provides advanced threat protection across your hybrid workloads in the cloud – whether they’re in Azure or not – as well as on premises.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Azure Active Directory (Azure AD) is a cloud-based user identity and authentication service.
+### Microsoft Entra ID is a cloud-based user identity and authentication service.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Microsoft 365 uses Azure Active Directory (Azure AD). Azure Active Directory (Azure AD) is included with your Microsoft 365 subscription.
+### Microsoft 365 uses Microsoft Entra ID. Microsoft Entra ID is included with your Microsoft 365 subscription.
 
 - [x] Yes.
 - [ ] No.
@@ -1777,21 +1778,21 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Applying system updates increases an organization's secure score in Microsoft Defender for Cloud.
+### ...
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### The secure score in Microsoft Defender for Cloud can evaluate resources across multiple Azure subscriptions.
+### ...
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### Enabling multi-factor authentication (MFA) increases an organization's secure score in Microsoft Defender for Cloud.
+### ...
 
 - [x] Yes.
 - [ ] No.
@@ -1802,7 +1803,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 - [ ] Microsoft Secure Score.
 - [ ] AProductivity Score.
-- [ ] Secure score in Azure Security Center.
+- [ ] Secure score in Microsoft Defender for Cloud.
 - [x] Compliance score.
 
 **[⬆ Back to Top](#table-of-contents)**
