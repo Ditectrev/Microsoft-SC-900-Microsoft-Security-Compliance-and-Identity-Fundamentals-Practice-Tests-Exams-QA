@@ -214,7 +214,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 102 | [Shared responsibility a key principle of Microsoft.](#shared-responsibility-a-key-principle-of-microsoft)
 | 103 | [What should you use to ensure that the members of a Microsoft Entra ID group use multi-factor authentication (MFA) when they sign in?](#what-should-you-use-to-ensure-that-the-members-of-a-microsoft-entra-id-group-use-multi-factor-authentication-mfa-when-they-sign-in)
 | 104 | [Microsoft Defender for Cloud can detect vulnerabilities and threats for Azure Storage.](#microsoft-defender-for-cloud-can-detect-vulnerabilities-and-threats-for-azure-storage)
-| 105 | [...](#...)
+| 105 | [Microsoft Entra Conditional Access policies can enforce authentication from approved client applications.](#microsoft-entra-conditional-access-policies-can-enforce-authentication-from-approved-client-applications) |
 | 106 | [[...] provides benchmark recommendations and guidance for protecting Azure services.](#-provides-benchmark-recommendations-and-guidance-for-protecting-azure-services)
 | 107 | [Which two Azure resources can a network security group (NSG) be associated with?](#which-two-azure-resources-can-a-network-security-group-nsg-be-associated-with)
 | 108 | [Microsoft Entra Connect can be used to implement hybrid identity.](#microsoft-entra-connect-can-be-used-to-implement-hybrid-identity)
@@ -293,9 +293,9 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 | 181 | [Microsoft Entra ID is a cloud-based user identity and authentication service.](#microsoft-entra-id-is-a-cloud-based-user-identity-and-authentication-service)
 | 182 | [Microsoft 365 uses Microsoft Entra ID. Microsoft Entra ID is included with your Microsoft 365 subscription.](#microsoft-365-uses-microsoft-entra-id-microsoft-entra-id-is-included-with-your-microsoft-365-subscription)
 | 183 | [Azure Bastion provides a secure connection to an Azure virtual machine by using the Azure portal.](#azure-bastion-provides-a-secure-connection-to-an-azure-virtual-machine-by-using-the-azure-portal)
-| 184 | [...](#...)
-| 185 | [...](#...)
-| 186 | [...](#...)
+| 184 | [Azure Information Protection can automatically detect and label sensitive information.](#azure-information-protection-can-automatically-detect-and-label-sensitive-information) |
+| 185 | [Microsoft Defender for Cloud Apps can monitor and control cloud app usage through its Cloud Discovery feature.](#microsoft-defender-for-cloud-apps-can-monitor-and-control-cloud-app-usage-through-its-cloud-discovery-feature) |
+| 186 | [Microsoft Purview Data Loss Prevention policies can be applied to Microsoft Teams chat messages.](#microsoft-purview-data-loss-prevention-policies-can-be-applied-to-microsoft-teams-chat-messages) |
 | 187 | [Which score measures an organization's progress in completing actions that help reduce risks associated to data protection and regulatory standards?](#which-score-measures-an-organizations-progress-in-completing-actions-that-help-reduce-risks-associated-to-data-protection-and-regulatory-standards)
 | 188 | [You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. Encrypt data at rest.](#you-are-evaluating-the-compliance-score-in-compliance-manager-match-the-compliance-score-action-subcategories-to-the-appropriate-actions--encrypt-data-at-rest)
 | 189 | [You are evaluating the compliance score in Compliance Manager. Match the compliance score action subcategories to the appropriate actions. Perform a system access audit.](#you-are-evaluating-the-compliance-score-in-compliance-manager-match-the-compliance-score-action-subcategories-to-the-appropriate-actions--perform-a-system-access-audit)
@@ -1129,7 +1129,7 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### ...
+### Microsoft Entra Conditional Access policies can enforce authentication from approved client applications.
 
 - [x] Yes.
 - [ ] No.
@@ -1778,21 +1778,21 @@ We are so thankful for every contribution, which makes sure we can deliver top-n
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### ...
+### Azure Information Protection can automatically detect and label sensitive information.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### ...
+### Microsoft Defender for Cloud Apps can monitor and control cloud app usage through its Cloud Discovery feature.
 
 - [x] Yes.
 - [ ] No.
 
 **[⬆ Back to Top](#table-of-contents)**
 
-### ...
+### Microsoft Purview Data Loss Prevention policies can be applied to Microsoft Teams chat messages.
 
 - [x] Yes.
 - [ ] No.
